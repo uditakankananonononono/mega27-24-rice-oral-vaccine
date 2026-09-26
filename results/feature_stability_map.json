@@ -1,0 +1,2587 @@
+{
+  "feature_rows": 212,
+  "fully_stable_direction_rows": 180,
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limitations": [
+    "Designed after seeing outcome values; feature-stability results exploratory and potentially overfit",
+    "Leave-one-out shares almost all samples and is not independent validation",
+    "Raw-versus-log direction is often invariant to monotonic transforms but mean effects need not be; two transforms are not broad preprocessing validation",
+    "Rotations are not a null with proven exchangeability under batch/condition confounding",
+    "Rows are correlated and repeated metabolite names remain; no independently held-out cohort or fair strongest comparator",
+    "Metabolite peak ratios do not measure antigen dose or vaccine efficacy"
+  ],
+  "rotated_label_fully_stable_counts": [
+    176,
+    48,
+    135,
+    163,
+    187,
+    170,
+    51,
+    152
+  ],
+  "rows": [
+    {
+      "database_id": "CHEBI:16885",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": 0.18574978771480932,
+      "log_loo_effect_range": [
+        -0.001242677897148603,
+        0.41007858327461477
+      ],
+      "name": "1-Kestose",
+      "raw_effect": 161.00699999999995,
+      "row_index": 0
+    },
+    {
+      "database_id": "CHEBI:16885",
+      "direction_stability": 0.9444444444444444,
+      "log_effect": 0.17782087481301012,
+      "log_loo_effect_range": [
+        0.011286637405597766,
+        0.3941483996475821
+      ],
+      "name": "1-Kestose",
+      "raw_effect": 166.71850000000018,
+      "row_index": 1
+    },
+    {
+      "database_id": "CHEBI:16885",
+      "direction_stability": 1.0,
+      "log_effect": 4.410044084404191,
+      "log_loo_effect_range": [
+        4.237117268909664,
+        4.683897041327552
+      ],
+      "name": "1-Kestose",
+      "raw_effect": 59.6155,
+      "row_index": 2
+    },
+    {
+      "database_id": "CHEBI:1307",
+      "direction_stability": 1.0,
+      "log_effect": 2.1956684267170443,
+      "log_loo_effect_range": [
+        2.0490165062812897,
+        2.3009946903717386
+      ],
+      "name": "3beta-24-Methylenecycloartan-3-ol",
+      "raw_effect": 480.21649999999994,
+      "row_index": 3
+    },
+    {
+      "database_id": "CHEBI:16335",
+      "direction_stability": 1.0,
+      "log_effect": 0.9860768238803974,
+      "log_loo_effect_range": [
+        0.8644706220930569,
+        1.0987556194281343
+      ],
+      "name": "Adenosine",
+      "raw_effect": 44.577,
+      "row_index": 4
+    },
+    {
+      "database_id": "CHEBI:22470",
+      "direction_stability": 1.0,
+      "log_effect": 0.5558652358370875,
+      "log_loo_effect_range": [
+        0.45929298722014167,
+        0.6372063801280756
+      ],
+      "name": "Alpha-Tocopherol",
+      "raw_effect": 41.16899999999999,
+      "row_index": 5
+    },
+    {
+      "database_id": "CHEBI:37024",
+      "direction_stability": 1.0,
+      "log_effect": 1.5674695395209262,
+      "log_loo_effect_range": [
+        1.4478529874270336,
+        1.700269188089937
+      ],
+      "name": "Aminoadipic acid",
+      "raw_effect": 2.909,
+      "row_index": 6
+    },
+    {
+      "database_id": "CHEBI:22652",
+      "direction_stability": 1.0,
+      "log_effect": 0.8949678783288002,
+      "log_loo_effect_range": [
+        0.840043150272157,
+        0.9810031815477229
+      ],
+      "name": "Ascorbic acid",
+      "raw_effect": 243.4665,
+      "row_index": 7
+    },
+    {
+      "database_id": "CHEBI:22652",
+      "direction_stability": 1.0,
+      "log_effect": 0.8573076753845721,
+      "log_loo_effect_range": [
+        0.424913541977378,
+        1.2347657268789898
+      ],
+      "name": "Ascorbic acid",
+      "raw_effect": 2.213,
+      "row_index": 8
+    },
+    {
+      "database_id": "CHEBI:22652",
+      "direction_stability": 1.0,
+      "log_effect": 0.8200426523005493,
+      "log_loo_effect_range": [
+        0.37243855440384466,
+        1.1942680757141442
+      ],
+      "name": "Ascorbic acid",
+      "raw_effect": 2.1850000000000005,
+      "row_index": 9
+    },
+    {
+      "database_id": "CHEBI:16958",
+      "direction_stability": 0.7777777777777778,
+      "log_effect": 0.06077526223398405,
+      "log_loo_effect_range": [
+        -0.19630537095574455,
+        0.2952236184661117
+      ],
+      "name": "Beta-Alanine",
+      "raw_effect": 0.373,
+      "row_index": 10
+    },
+    {
+      "database_id": "CHEBI:16958",
+      "direction_stability": 1.0,
+      "log_effect": 0.4654079795905841,
+      "log_loo_effect_range": [
+        0.2603363125957845,
+        0.6404433749953522
+      ],
+      "name": "Beta-Alanine",
+      "raw_effect": 2.066,
+      "row_index": 11
+    },
+    {
+      "database_id": "CHEBI:16958",
+      "direction_stability": 1.0,
+      "log_effect": 0.17169325871288343,
+      "log_loo_effect_range": [
+        0.04912403636687124,
+        0.3112837431509261
+      ],
+      "name": "Beta-Alanine",
+      "raw_effect": 0.6895000000000002,
+      "row_index": 12
+    },
+    {
+      "database_id": "CHEBI:16958",
+      "direction_stability": 1.0,
+      "log_effect": 0.17305993414908372,
+      "log_loo_effect_range": [
+        0.06268657065194816,
+        0.3146692645849405
+      ],
+      "name": "Beta-Alanine",
+      "raw_effect": 2.0969999999999995,
+      "row_index": 13
+    },
+    {
+      "database_id": "CHEBI:16958",
+      "direction_stability": 1.0,
+      "log_effect": 0.18625548087067023,
+      "log_loo_effect_range": [
+        0.06997382025581156,
+        0.3169748875016716
+      ],
+      "name": "Beta-Alanine",
+      "raw_effect": 0.7714999999999996,
+      "row_index": 14
+    },
+    {
+      "database_id": "CHEBI:16958",
+      "direction_stability": 1.0,
+      "log_effect": 0.23020669863224086,
+      "log_loo_effect_range": [
+        0.12552947780740364,
+        0.3303255454969394
+      ],
+      "name": "Beta-Alanine",
+      "raw_effect": 122.07100000000003,
+      "row_index": 15
+    },
+    {
+      "database_id": "CHEBI:27693",
+      "direction_stability": 1.0,
+      "log_effect": 1.026442160539248,
+      "log_loo_effect_range": [
+        0.9255643621897107,
+        1.1236465606563533
+      ],
+      "name": "Beta-Sitosterol",
+      "raw_effect": 1027.6105000000002,
+      "row_index": 16
+    },
+    {
+      "database_id": "CHEBI:47771",
+      "direction_stability": 1.0,
+      "log_effect": 1.1157367307502075,
+      "log_loo_effect_range": [
+        0.9931451208459618,
+        1.2494140868476045
+      ],
+      "name": "Beta-tocopherol",
+      "raw_effect": 18.783,
+      "row_index": 17
+    },
+    {
+      "database_id": "CHEBI:47771",
+      "direction_stability": 1.0,
+      "log_effect": -0.8209020691266513,
+      "log_loo_effect_range": [
+        -0.9379944263764357,
+        -0.7256979152400411
+      ],
+      "name": "Beta-tocopherol",
+      "raw_effect": -5.802500000000001,
+      "row_index": 18
+    },
+    {
+      "database_id": "CHEBI:3168",
+      "direction_stability": 1.0,
+      "log_effect": 1.0725407294468163,
+      "log_loo_effect_range": [
+        0.9818430638836783,
+        1.1897288625968045
+      ],
+      "name": "Brassicasterol",
+      "raw_effect": 2.4619999999999997,
+      "row_index": 19
+    },
+    {
+      "database_id": "CHEBI:141073",
+      "direction_stability": 1.0,
+      "log_effect": -0.3429397395162103,
+      "log_loo_effect_range": [
+        -0.5826028842039599,
+        -0.18502554686141015
+      ],
+      "name": "C11:0 ME",
+      "raw_effect": -0.5405,
+      "row_index": 20
+    },
+    {
+      "database_id": "CHEBI:141073",
+      "direction_stability": 0.6666666666666666,
+      "log_effect": 0.021219042100964425,
+      "log_loo_effect_range": [
+        -0.17024872003983993,
+        0.23625898523222932
+      ],
+      "name": "C11:0 ME",
+      "raw_effect": 0.10449999999999982,
+      "row_index": 21
+    },
+    {
+      "database_id": "CHEBI:141073",
+      "direction_stability": 1.0,
+      "log_effect": 0.38069387492607903,
+      "log_loo_effect_range": [
+        0.27122355296143646,
+        0.5344815583777756
+      ],
+      "name": "C11:0 ME",
+      "raw_effect": 0.7189999999999999,
+      "row_index": 22
+    },
+    {
+      "database_id": "CHEBI:141075",
+      "direction_stability": 1.0,
+      "log_effect": -0.7223277022464633,
+      "log_loo_effect_range": [
+        -1.006852419538302,
+        -0.41644413060951957
+      ],
+      "name": "C12:0",
+      "raw_effect": -0.9079999999999997,
+      "row_index": 23
+    },
+    {
+      "database_id": "CHEBI:141076",
+      "direction_stability": 1.0,
+      "log_effect": 1.4365565528338335,
+      "log_loo_effect_range": [
+        0.9202315419399623,
+        1.965711191644066
+      ],
+      "name": "C12:0 ME",
+      "raw_effect": 8.4405,
+      "row_index": 24
+    },
+    {
+      "database_id": "CHEBI:141076",
+      "direction_stability": 1.0,
+      "log_effect": 0.2753432307364021,
+      "log_loo_effect_range": [
+        0.17029811827468788,
+        0.3913707016002259
+      ],
+      "name": "C12:0 ME",
+      "raw_effect": 1.3514999999999997,
+      "row_index": 25
+    },
+    {
+      "database_id": "CHEBI:141078",
+      "direction_stability": 1.0,
+      "log_effect": 0.538266279724714,
+      "log_loo_effect_range": [
+        0.44850793031821157,
+        0.650178876593442
+      ],
+      "name": "C13:0",
+      "raw_effect": 1.4765000000000001,
+      "row_index": 26
+    },
+    {
+      "database_id": "CHEBI:140940",
+      "direction_stability": 1.0,
+      "log_effect": -0.38396393641913873,
+      "log_loo_effect_range": [
+        -0.6673667298717185,
+        -0.10392444530858169
+      ],
+      "name": "C14:0",
+      "raw_effect": -3.930999999999999,
+      "row_index": 27
+    },
+    {
+      "database_id": "CHEBI:140940",
+      "direction_stability": 1.0,
+      "log_effect": 0.8117141105102714,
+      "log_loo_effect_range": [
+        0.7210356424332098,
+        0.9457003577609657
+      ],
+      "name": "C14:0",
+      "raw_effect": 19.6,
+      "row_index": 28
+    },
+    {
+      "database_id": "CHEBI:141079",
+      "direction_stability": 1.0,
+      "log_effect": 0.5846879315618168,
+      "log_loo_effect_range": [
+        0.4775104282554379,
+        0.6824999844450459
+      ],
+      "name": "C14:0 ME",
+      "raw_effect": 14.528499999999998,
+      "row_index": 29
+    },
+    {
+      "database_id": "CHEBI:140942",
+      "direction_stability": 0.8333333333333334,
+      "log_effect": 0.06544185511677103,
+      "log_loo_effect_range": [
+        -0.293611137578647,
+        0.48432223320200984
+      ],
+      "name": "C15:0",
+      "raw_effect": 1.4154999999999998,
+      "row_index": 30
+    },
+    {
+      "database_id": "CHEBI:140942",
+      "direction_stability": 1.0,
+      "log_effect": 1.2366184750018043,
+      "log_loo_effect_range": [
+        1.1353216886869084,
+        1.3516763920879782
+      ],
+      "name": "C15:0",
+      "raw_effect": 12.088,
+      "row_index": 31
+    },
+    {
+      "database_id": "CHEBI:140942",
+      "direction_stability": 1.0,
+      "log_effect": 0.6602718834275403,
+      "log_loo_effect_range": [
+        0.5886407296320479,
+        0.7334984603874597
+      ],
+      "name": "C15:0",
+      "raw_effect": 3.8690000000000007,
+      "row_index": 32
+    },
+    {
+      "database_id": "CHEBI:141080",
+      "direction_stability": 1.0,
+      "log_effect": 1.2323313169134797,
+      "log_loo_effect_range": [
+        1.1264019017057156,
+        1.321793588708308
+      ],
+      "name": "C15:0 ME",
+      "raw_effect": 5.272499999999999,
+      "row_index": 33
+    },
+    {
+      "database_id": "CHEBI:140943",
+      "direction_stability": 0.7222222222222222,
+      "log_effect": 0.13473204680597686,
+      "log_loo_effect_range": [
+        -0.13719742868502488,
+        0.4085850037293377
+      ],
+      "name": "C16:0",
+      "raw_effect": 0.15800000000000003,
+      "row_index": 34
+    },
+    {
+      "database_id": "CHEBI:140943",
+      "direction_stability": 1.0,
+      "log_effect": 1.298293356847224,
+      "log_loo_effect_range": [
+        1.1080244389406477,
+        1.4967272778682856
+      ],
+      "name": "C16:0",
+      "raw_effect": 299.8075,
+      "row_index": 35
+    },
+    {
+      "database_id": "CHEBI:140943",
+      "direction_stability": 1.0,
+      "log_effect": 0.40204735874469755,
+      "log_loo_effect_range": [
+        0.3165941586724186,
+        0.4833947664884395
+      ],
+      "name": "C16:0",
+      "raw_effect": 770.1324999999997,
+      "row_index": 36
+    },
+    {
+      "database_id": "CHEBI:140943",
+      "direction_stability": 1.0,
+      "log_effect": 0.6607421275938998,
+      "log_loo_effect_range": [
+        0.5671543380369757,
+        0.7432774783555365
+      ],
+      "name": "C16:0",
+      "raw_effect": 888.2330000000001,
+      "row_index": 37
+    },
+    {
+      "database_id": "CHEBI:141081",
+      "direction_stability": 1.0,
+      "log_effect": 0.5598560213171355,
+      "log_loo_effect_range": [
+        0.48246218203673497,
+        0.6527194321237237
+      ],
+      "name": "C16:0 ME",
+      "raw_effect": 260.31649999999996,
+      "row_index": 38
+    },
+    {
+      "database_id": "CHEBI:141081",
+      "direction_stability": 1.0,
+      "log_effect": 0.49006459574553585,
+      "log_loo_effect_range": [
+        0.3968185903485395,
+        0.5609556435659275
+      ],
+      "name": "C16:0 ME",
+      "raw_effect": 500.91700000000014,
+      "row_index": 39
+    },
+    {
+      "database_id": "CHEBI:141082",
+      "direction_stability": 1.0,
+      "log_effect": 0.8621776014116163,
+      "log_loo_effect_range": [
+        0.7930470872019006,
+        0.9474627027961859
+      ],
+      "name": "C16:1(9Z) ME",
+      "raw_effect": 2.2665,
+      "row_index": 40
+    },
+    {
+      "database_id": "CHEBI:140945",
+      "direction_stability": 1.0,
+      "log_effect": 0.471674217217832,
+      "log_loo_effect_range": [
+        0.3044881381049913,
+        0.728111839427782
+      ],
+      "name": "C17:0",
+      "raw_effect": 0.4630000000000001,
+      "row_index": 41
+    },
+    {
+      "database_id": "CHEBI:140945",
+      "direction_stability": 1.0,
+      "log_effect": 0.7313525635216563,
+      "log_loo_effect_range": [
+        0.598115634250493,
+        0.8656943116929239
+      ],
+      "name": "C17:0",
+      "raw_effect": 1.5274999999999999,
+      "row_index": 42
+    },
+    {
+      "database_id": "CHEBI:140945",
+      "direction_stability": 1.0,
+      "log_effect": 1.2788580095305235,
+      "log_loo_effect_range": [
+        1.2017141941440421,
+        1.3681149857447337
+      ],
+      "name": "C17:0",
+      "raw_effect": 21.205,
+      "row_index": 43
+    },
+    {
+      "database_id": "CHEBI:140945",
+      "direction_stability": 1.0,
+      "log_effect": 0.7865471338200272,
+      "log_loo_effect_range": [
+        0.7262246851200689,
+        0.8462600504198323
+      ],
+      "name": "C17:0",
+      "raw_effect": 36.829499999999996,
+      "row_index": 44
+    },
+    {
+      "database_id": "CHEBI:141083",
+      "direction_stability": 1.0,
+      "log_effect": 0.9275587870086488,
+      "log_loo_effect_range": [
+        0.8255300886671004,
+        1.0944357812779533
+      ],
+      "name": "C17:0 ME",
+      "raw_effect": 0.964,
+      "row_index": 45
+    },
+    {
+      "database_id": "CHEBI:141083",
+      "direction_stability": 1.0,
+      "log_effect": 0.771512666449198,
+      "log_loo_effect_range": [
+        0.7010631392687632,
+        0.816212172062734
+      ],
+      "name": "C17:0 ME",
+      "raw_effect": 3.8515000000000006,
+      "row_index": 46
+    },
+    {
+      "database_id": "CHEBI:140947",
+      "direction_stability": 1.0,
+      "log_effect": 1.5759634602547399,
+      "log_loo_effect_range": [
+        1.408368174147249,
+        1.7580498235272293
+      ],
+      "name": "C18:0",
+      "raw_effect": 175.4495,
+      "row_index": 47
+    },
+    {
+      "database_id": "CHEBI:140947",
+      "direction_stability": 1.0,
+      "log_effect": 1.2190808065609007,
+      "log_loo_effect_range": [
+        1.1300739138589675,
+        1.312261763107069
+      ],
+      "name": "C18:0",
+      "raw_effect": 3.3805,
+      "row_index": 48
+    },
+    {
+      "database_id": "CHEBI:140947",
+      "direction_stability": 1.0,
+      "log_effect": 0.775757993199405,
+      "log_loo_effect_range": [
+        0.6920246158610528,
+        0.8536142591356732
+      ],
+      "name": "C18:0",
+      "raw_effect": 936.1795,
+      "row_index": 49
+    },
+    {
+      "database_id": "CHEBI:141084",
+      "direction_stability": 1.0,
+      "log_effect": 0.675626030699874,
+      "log_loo_effect_range": [
+        0.5998926794505266,
+        0.72832653344914
+      ],
+      "name": "C18:0 ME",
+      "raw_effect": 166.70950000000002,
+      "row_index": 50
+    },
+    {
+      "database_id": "CHEBI:141085",
+      "direction_stability": 1.0,
+      "log_effect": 0.49425289767990765,
+      "log_loo_effect_range": [
+        0.41675585840227836,
+        0.5764808718470462
+      ],
+      "name": "C18:1 ME",
+      "raw_effect": 205.75349999999997,
+      "row_index": 51
+    },
+    {
+      "database_id": "CHEBI:141085",
+      "direction_stability": 1.0,
+      "log_effect": 0.524461871811206,
+      "log_loo_effect_range": [
+        0.4438579552143711,
+        0.6059723539869628
+      ],
+      "name": "C18:1 ME",
+      "raw_effect": 380.24250000000006,
+      "row_index": 52
+    },
+    {
+      "database_id": "CHEBI:140949",
+      "direction_stability": 0.6666666666666666,
+      "log_effect": 0.08056141234958965,
+      "log_loo_effect_range": [
+        -0.09251399138710725,
+        0.2667311568431251
+      ],
+      "name": "C18:2",
+      "raw_effect": 0.11050000000000004,
+      "row_index": 53
+    },
+    {
+      "database_id": "CHEBI:140949",
+      "direction_stability": 1.0,
+      "log_effect": 0.37943131927807094,
+      "log_loo_effect_range": [
+        0.29482771032714616,
+        0.46032520685414546
+      ],
+      "name": "C18:2",
+      "raw_effect": 658.0155000000002,
+      "row_index": 54
+    },
+    {
+      "database_id": "CHEBI:140949",
+      "direction_stability": 1.0,
+      "log_effect": 0.5118446491232955,
+      "log_loo_effect_range": [
+        0.42158501981297647,
+        0.5902985303702133
+      ],
+      "name": "C18:2",
+      "raw_effect": 427.9464999999999,
+      "row_index": 55
+    },
+    {
+      "database_id": "CHEBI:140949",
+      "direction_stability": 1.0,
+      "log_effect": 0.6833626850831358,
+      "log_loo_effect_range": [
+        0.5910746594487879,
+        0.7610195992882396
+      ],
+      "name": "C18:2",
+      "raw_effect": 594.116,
+      "row_index": 56
+    },
+    {
+      "database_id": "CHEBI:140949",
+      "direction_stability": 1.0,
+      "log_effect": 1.3780704533499422,
+      "log_loo_effect_range": [
+        1.2900386223559748,
+        1.4755303820575199
+      ],
+      "name": "C18:2",
+      "raw_effect": 11.712,
+      "row_index": 57
+    },
+    {
+      "database_id": "CHEBI:141086",
+      "direction_stability": 1.0,
+      "log_effect": 0.41874178788335215,
+      "log_loo_effect_range": [
+        0.33093436648958985,
+        0.48973405551594595
+      ],
+      "name": "C18:2 ME",
+      "raw_effect": 312.50299999999993,
+      "row_index": 58
+    },
+    {
+      "database_id": "CHEBI:141087",
+      "direction_stability": 1.0,
+      "log_effect": 0.48800615249220425,
+      "log_loo_effect_range": [
+        0.4416231972569743,
+        0.5846217324297605
+      ],
+      "name": "C19:0",
+      "raw_effect": 0.5835,
+      "row_index": 59
+    },
+    {
+      "database_id": "CHEBI:141087",
+      "direction_stability": 1.0,
+      "log_effect": 1.7945701252188324,
+      "log_loo_effect_range": [
+        1.5559241426553871,
+        1.9663164403096105
+      ],
+      "name": "C19:0",
+      "raw_effect": 12.7035,
+      "row_index": 60
+    },
+    {
+      "database_id": "CHEBI:141087",
+      "direction_stability": 1.0,
+      "log_effect": 1.9346292851228535,
+      "log_loo_effect_range": [
+        1.8456223924209203,
+        2.0500311172358314
+      ],
+      "name": "C19:0",
+      "raw_effect": 8.510499999999999,
+      "row_index": 61
+    },
+    {
+      "database_id": "CHEBI:141087",
+      "direction_stability": 1.0,
+      "log_effect": 0.2201575078975715,
+      "log_loo_effect_range": [
+        0.15740883915783632,
+        0.3447229298637584
+      ],
+      "name": "C19:0",
+      "raw_effect": 2.1839999999999993,
+      "row_index": 62
+    },
+    {
+      "database_id": "CHEBI:140951",
+      "direction_stability": 1.0,
+      "log_effect": 1.2861967126428673,
+      "log_loo_effect_range": [
+        1.2202549211420703,
+        1.3772184743597395
+      ],
+      "name": "C20:0",
+      "raw_effect": 115.20499999999998,
+      "row_index": 63
+    },
+    {
+      "database_id": "CHEBI:141088",
+      "direction_stability": 1.0,
+      "log_effect": 0.7693415987992358,
+      "log_loo_effect_range": [
+        0.6990182889261796,
+        0.7974817198552984
+      ],
+      "name": "C20:0 ME",
+      "raw_effect": 77.797,
+      "row_index": 64
+    },
+    {
+      "database_id": "CHEBI:141089",
+      "direction_stability": 1.0,
+      "log_effect": 0.8552694333621025,
+      "log_loo_effect_range": [
+        0.8084424043199845,
+        0.9022931928525351
+      ],
+      "name": "C20:1(11Z) ME",
+      "raw_effect": 24.215500000000002,
+      "row_index": 65
+    },
+    {
+      "database_id": "CHEBI:141090",
+      "direction_stability": 1.0,
+      "log_effect": 1.1933153567210386,
+      "log_loo_effect_range": [
+        1.1019092284343204,
+        1.331314899918349
+      ],
+      "name": "C21:0",
+      "raw_effect": 3.3605000000000005,
+      "row_index": 66
+    },
+    {
+      "database_id": "CHEBI:141090",
+      "direction_stability": 1.0,
+      "log_effect": 0.7501353271417607,
+      "log_loo_effect_range": [
+        0.6611284344398275,
+        0.8744721214003771
+      ],
+      "name": "C21:0",
+      "raw_effect": 1.6355,
+      "row_index": 67
+    },
+    {
+      "database_id": "CHEBI:141090",
+      "direction_stability": 1.0,
+      "log_effect": 0.6659482997677391,
+      "log_loo_effect_range": [
+        0.6012347646380762,
+        0.784583543611167
+      ],
+      "name": "C21:0",
+      "raw_effect": 2.4715,
+      "row_index": 68
+    },
+    {
+      "database_id": "CHEBI:141091",
+      "direction_stability": 1.0,
+      "log_effect": 0.9967375756573514,
+      "log_loo_effect_range": [
+        0.9077306829554183,
+        1.059728026010328
+      ],
+      "name": "C21:0 ME",
+      "raw_effect": 2.408,
+      "row_index": 69
+    },
+    {
+      "database_id": "CHEBI:140958",
+      "direction_stability": 1.0,
+      "log_effect": 1.394775596514561,
+      "log_loo_effect_range": [
+        1.3145350003374903,
+        1.5190869553927735
+      ],
+      "name": "C22:0",
+      "raw_effect": 28.336,
+      "row_index": 70
+    },
+    {
+      "database_id": "CHEBI:141092",
+      "direction_stability": 1.0,
+      "log_effect": 0.8495946892287343,
+      "log_loo_effect_range": [
+        0.7699502550934803,
+        0.8876208363700662
+      ],
+      "name": "C22:0 ME",
+      "raw_effect": 34.564499999999995,
+      "row_index": 71
+    },
+    {
+      "database_id": "CHEBI:141092",
+      "direction_stability": 1.0,
+      "log_effect": 0.8020687198784406,
+      "log_loo_effect_range": [
+        0.7463315705625186,
+        0.8390753206771819
+      ],
+      "name": "C22:0 ME",
+      "raw_effect": 25.3885,
+      "row_index": 72
+    },
+    {
+      "database_id": "CHEBI:141093",
+      "direction_stability": 1.0,
+      "log_effect": 0.8126083301272289,
+      "log_loo_effect_range": [
+        0.7446571166297248,
+        0.8594119359721462
+      ],
+      "name": "C22:1(13Z) ME",
+      "raw_effect": 2.001,
+      "row_index": 73
+    },
+    {
+      "database_id": "CHEBI:141094",
+      "direction_stability": 1.0,
+      "log_effect": 1.670719780832734,
+      "log_loo_effect_range": [
+        1.5856791033774118,
+        1.8118932681630997
+      ],
+      "name": "C23:0",
+      "raw_effect": 8.081999999999999,
+      "row_index": 74
+    },
+    {
+      "database_id": "CHEBI:141094",
+      "direction_stability": 1.0,
+      "log_effect": 0.6897242449272893,
+      "log_loo_effect_range": [
+        0.6003189704446128,
+        0.8350513093601228
+      ],
+      "name": "C23:0",
+      "raw_effect": 3.307499999999999,
+      "row_index": 75
+    },
+    {
+      "database_id": "CHEBI:141095",
+      "direction_stability": 1.0,
+      "log_effect": 1.169596848733638,
+      "log_loo_effect_range": [
+        1.075656028217327,
+        1.242897730195812
+      ],
+      "name": "C23:0 ME",
+      "raw_effect": 5.0435,
+      "row_index": 76
+    },
+    {
+      "database_id": "CHEBI:141070",
+      "direction_stability": 0.6111111111111112,
+      "log_effect": 0.0220381753556943,
+      "log_loo_effect_range": [
+        -0.24989130013530744,
+        0.27083704239254425
+      ],
+      "name": "C7:0",
+      "raw_effect": 0.09000000000000008,
+      "row_index": 77
+    },
+    {
+      "database_id": "CHEBI:141070",
+      "direction_stability": 0.7222222222222222,
+      "log_effect": 0.05420338545216691,
+      "log_loo_effect_range": [
+        -0.049114369694874704,
+        0.1805709314421342
+      ],
+      "name": "C7:0",
+      "raw_effect": 0.03249999999999997,
+      "row_index": 78
+    },
+    {
+      "database_id": "CHEBI:141071",
+      "direction_stability": 1.0,
+      "log_effect": 0.3428741140420223,
+      "log_loo_effect_range": [
+        0.07913019123394155,
+        0.7458504375022954
+      ],
+      "name": "C8:0",
+      "raw_effect": 0.51,
+      "row_index": 79
+    },
+    {
+      "database_id": "CHEBI:141071",
+      "direction_stability": 1.0,
+      "log_effect": -0.359157212893107,
+      "log_loo_effect_range": [
+        -0.5316985566034462,
+        -0.28110443424032944
+      ],
+      "name": "C8:0",
+      "raw_effect": -0.39949999999999997,
+      "row_index": 80
+    },
+    {
+      "database_id": "CHEBI:141072",
+      "direction_stability": 1.0,
+      "log_effect": -0.704387191912152,
+      "log_loo_effect_range": [
+        -0.9047977564932044,
+        -0.40073955415690643
+      ],
+      "name": "C9:0",
+      "raw_effect": -1.0154999999999998,
+      "row_index": 81
+    },
+    {
+      "database_id": "CHEBI:141072",
+      "direction_stability": 1.0,
+      "log_effect": -0.5178704137956796,
+      "log_loo_effect_range": [
+        -0.853947844440621,
+        -0.26907154675882966
+      ],
+      "name": "C9:0",
+      "raw_effect": -0.5739999999999998,
+      "row_index": 82
+    },
+    {
+      "database_id": "CHEBI:141072",
+      "direction_stability": 0.5555555555555556,
+      "log_effect": -0.0018032681133215434,
+      "log_loo_effect_range": [
+        -0.1282203442023767,
+        0.1410977255353788
+      ],
+      "name": "C9:0",
+      "raw_effect": -0.12600000000000033,
+      "row_index": 83
+    },
+    {
+      "database_id": "CHEBI:28623",
+      "direction_stability": 1.0,
+      "log_effect": 1.3170485833831327,
+      "log_loo_effect_range": [
+        1.2080098373379702,
+        1.4391346712627255
+      ],
+      "name": "Campesterol",
+      "raw_effect": 744.5720000000001,
+      "row_index": 84
+    },
+    {
+      "database_id": "CHEBI:16113",
+      "direction_stability": 1.0,
+      "log_effect": 1.3806842572510332,
+      "log_loo_effect_range": [
+        1.2326013155848141,
+        1.5145898773228452
+      ],
+      "name": "Cholesterol",
+      "raw_effect": 22.017000000000003,
+      "row_index": 85
+    },
+    {
+      "database_id": "CHEBI:32805",
+      "direction_stability": 1.0,
+      "log_effect": -0.7089677492175265,
+      "log_loo_effect_range": [
+        -1.0928195137179295,
+        -0.46016888218067653
+      ],
+      "name": "cis-Aconitic acid",
+      "raw_effect": -0.998,
+      "row_index": 86
+    },
+    {
+      "database_id": "CHEBI:30769",
+      "direction_stability": 1.0,
+      "log_effect": 1.710558519895562,
+      "log_loo_effect_range": [
+        1.5826789549568145,
+        1.9455198030339016
+      ],
+      "name": "Citric acid",
+      "raw_effect": 449.607,
+      "row_index": 87
+    },
+    {
+      "database_id": "CHEBI:17030",
+      "direction_stability": 1.0,
+      "log_effect": 2.429005181475037,
+      "log_loo_effect_range": [
+        2.29731301765569,
+        2.532988050701583
+      ],
+      "name": "Cycloartenol",
+      "raw_effect": 584.5845,
+      "row_index": 88
+    },
+    {
+      "database_id": "CHEBI:15824",
+      "direction_stability": 1.0,
+      "log_effect": 0.19474211565194458,
+      "log_loo_effect_range": [
+        0.12119627769576016,
+        0.3339154062987134
+      ],
+      "name": "D-Fructose",
+      "raw_effect": 0.13350000000000006,
+      "row_index": 89
+    },
+    {
+      "database_id": "CHEBI:15824",
+      "direction_stability": 0.7777777777777778,
+      "log_effect": 0.18926883370163075,
+      "log_loo_effect_range": [
+        -0.6355255650788938,
+        0.6492263040894986
+      ],
+      "name": "D-Fructose",
+      "raw_effect": 2.5100000000000002,
+      "row_index": 90
+    },
+    {
+      "database_id": "CHEBI:15824",
+      "direction_stability": 1.0,
+      "log_effect": 0.819572836845385,
+      "log_loo_effect_range": [
+        0.6619592982939615,
+        0.9663863094527896
+      ],
+      "name": "D-Fructose",
+      "raw_effect": 680.9305000000002,
+      "row_index": 91
+    },
+    {
+      "database_id": "CHEBI:15824",
+      "direction_stability": 1.0,
+      "log_effect": 1.1964657455773509,
+      "log_loo_effect_range": [
+        1.1079862258367088,
+        1.3280720515229216
+      ],
+      "name": "D-Fructose",
+      "raw_effect": 204.6305,
+      "row_index": 92
+    },
+    {
+      "database_id": "CHEBI:4167",
+      "direction_stability": 1.0,
+      "log_effect": 3.0990997368868536,
+      "log_loo_effect_range": [
+        2.509398670093168,
+        4.430218885567506
+      ],
+      "name": "D-Glucose",
+      "raw_effect": 238.551,
+      "row_index": 93
+    },
+    {
+      "database_id": "CHEBI:4167",
+      "direction_stability": 1.0,
+      "log_effect": 0.42181102355408573,
+      "log_loo_effect_range": [
+        0.2961767763801939,
+        0.538504793545072
+      ],
+      "name": "D-Glucose",
+      "raw_effect": 362.0535000000001,
+      "row_index": 94
+    },
+    {
+      "database_id": "CHEBI:4167",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": 0.08238901701085655,
+      "log_loo_effect_range": [
+        -0.08866114341243492,
+        0.42688452698592183
+      ],
+      "name": "D-Glucose",
+      "raw_effect": 0.9255000000000004,
+      "row_index": 95
+    },
+    {
+      "database_id": "CHEBI:17306",
+      "direction_stability": 1.0,
+      "log_effect": -0.5958663439313927,
+      "log_loo_effect_range": [
+        -0.6866171443861564,
+        -0.49997621713345275
+      ],
+      "name": "D-Maltose",
+      "raw_effect": -175.61599999999999,
+      "row_index": 96
+    },
+    {
+      "database_id": "CHEBI:17306",
+      "direction_stability": 1.0,
+      "log_effect": -2.6198945734189696,
+      "log_loo_effect_range": [
+        -2.8245262847055415,
+        -2.0875203182160234
+      ],
+      "name": "D-Maltose",
+      "raw_effect": -73.5085,
+      "row_index": 97
+    },
+    {
+      "database_id": "CHEBI:16988",
+      "direction_stability": 1.0,
+      "log_effect": 2.924027548922031,
+      "log_loo_effect_range": [
+        2.4800877105721195,
+        3.4550968507090642
+      ],
+      "name": "D-Ribose",
+      "raw_effect": 44.970499999999994,
+      "row_index": 98
+    },
+    {
+      "database_id": "CHEBI:16988",
+      "direction_stability": 1.0,
+      "log_effect": 0.5811376693292107,
+      "log_loo_effect_range": [
+        0.08909744108768869,
+        1.0362058246182193
+      ],
+      "name": "D-Ribose",
+      "raw_effect": 3.266,
+      "row_index": 99
+    },
+    {
+      "database_id": "CHEBI:16988",
+      "direction_stability": 1.0,
+      "log_effect": -0.4983727120100415,
+      "log_loo_effect_range": [
+        -0.7790548829964791,
+        -0.30420734964137386
+      ],
+      "name": "D-Ribose",
+      "raw_effect": -0.9255,
+      "row_index": 100
+    },
+    {
+      "database_id": "CHEBI:16988",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": -0.06781295613168725,
+      "log_loo_effect_range": [
+        -0.13262583371611358,
+        0.005103217684577999
+      ],
+      "name": "D-Ribose",
+      "raw_effect": -0.13600000000000012,
+      "row_index": 101
+    },
+    {
+      "database_id": "CHEBI:43619",
+      "direction_stability": 1.0,
+      "log_effect": 0.4714922872364826,
+      "log_loo_effect_range": [
+        0.3944385579449583,
+        0.5262240262835545
+      ],
+      "name": "Eicosane",
+      "raw_effect": 3.795,
+      "row_index": 102
+    },
+    {
+      "database_id": "CHEBI:16000",
+      "direction_stability": 0.6666666666666666,
+      "log_effect": 0.06417078134678464,
+      "log_loo_effect_range": [
+        -0.3350198053176572,
+        0.4131539586954377
+      ],
+      "name": "Ethanolamine",
+      "raw_effect": 0.4115000000000002,
+      "row_index": 103
+    },
+    {
+      "database_id": "CHEBI:16000",
+      "direction_stability": 1.0,
+      "log_effect": 0.25512495431932614,
+      "log_loo_effect_range": [
+        0.09987005037380214,
+        0.4091607685400449
+      ],
+      "name": "Ethanolamine",
+      "raw_effect": 95.18699999999995,
+      "row_index": 104
+    },
+    {
+      "database_id": "CHEBI:78697",
+      "direction_stability": 1.0,
+      "log_effect": 0.493355994503457,
+      "log_loo_effect_range": [
+        0.397685054936171,
+        0.6665907475470239
+      ],
+      "name": "Fructose 6-phosphate",
+      "raw_effect": 0.3600000000000001,
+      "row_index": 105
+    },
+    {
+      "database_id": "CHEBI:18012",
+      "direction_stability": 1.0,
+      "log_effect": 0.5512737420756522,
+      "log_loo_effect_range": [
+        0.3549141805997672,
+        0.9316942426396264
+      ],
+      "name": "Fumaric acid",
+      "raw_effect": 0.42900000000000005,
+      "row_index": 106
+    },
+    {
+      "database_id": "CHEBI:18012",
+      "direction_stability": 1.0,
+      "log_effect": -0.48713063708598625,
+      "log_loo_effect_range": [
+        -0.7172137403231109,
+        -0.3835654936373607
+      ],
+      "name": "Fumaric acid",
+      "raw_effect": -1.5635,
+      "row_index": 107
+    },
+    {
+      "database_id": "CHEBI:18012",
+      "direction_stability": 1.0,
+      "log_effect": -0.27895145205195604,
+      "log_loo_effect_range": [
+        -0.5161287052388723,
+        -0.18409103680843408
+      ],
+      "name": "Fumaric acid",
+      "raw_effect": -2.1400000000000006,
+      "row_index": 108
+    },
+    {
+      "database_id": "CHEBI:18012",
+      "direction_stability": 1.0,
+      "log_effect": 0.24167221366656438,
+      "log_loo_effect_range": [
+        0.13835445851952277,
+        0.41490696671013116
+      ],
+      "name": "Fumaric acid",
+      "raw_effect": 0.14250000000000007,
+      "row_index": 109
+    },
+    {
+      "database_id": "CHEBI:16865",
+      "direction_stability": 1.0,
+      "log_effect": -1.2267758293802205,
+      "log_loo_effect_range": [
+        -2.0691926048052207,
+        -0.6761559951886171
+      ],
+      "name": "Gamma-Aminobutyric acid",
+      "raw_effect": -3.572,
+      "row_index": 110
+    },
+    {
+      "database_id": "CHEBI:16865",
+      "direction_stability": 1.0,
+      "log_effect": -0.12236112210307404,
+      "log_loo_effect_range": [
+        -0.1685426006291184,
+        -0.06550112777308748
+      ],
+      "name": "Gamma-Aminobutyric acid",
+      "raw_effect": -49.21249999999998,
+      "row_index": 111
+    },
+    {
+      "database_id": "CHEBI:16865",
+      "direction_stability": 1.0,
+      "log_effect": 0.279329596919518,
+      "log_loo_effect_range": [
+        0.16715151684733742,
+        0.37583558450769505
+      ],
+      "name": "Gamma-Aminobutyric acid",
+      "raw_effect": 6.6265,
+      "row_index": 112
+    },
+    {
+      "database_id": "CHEBI:16077",
+      "direction_stability": 0.6111111111111112,
+      "log_effect": -0.15378190772443223,
+      "log_loo_effect_range": [
+        -0.3741634808138945,
+        0.32762671114303954
+      ],
+      "name": "Glucose 1-phosphate",
+      "raw_effect": 0.35350000000000037,
+      "row_index": 113
+    },
+    {
+      "database_id": "CHEBI:16077",
+      "direction_stability": 1.0,
+      "log_effect": 0.24260133700910425,
+      "log_loo_effect_range": [
+        0.1694631665624442,
+        0.31749255427243384
+      ],
+      "name": "Glucose 1-phosphate",
+      "raw_effect": 4.3385,
+      "row_index": 114
+    },
+    {
+      "database_id": "CHEBI:14314",
+      "direction_stability": 1.0,
+      "log_effect": -0.8314570103943587,
+      "log_loo_effect_range": [
+        -1.1033864858853604,
+        -0.5826581433575088
+      ],
+      "name": "Glucose 6-phosphate",
+      "raw_effect": -0.8859999999999999,
+      "row_index": 115
+    },
+    {
+      "database_id": "CHEBI:33508",
+      "direction_stability": 1.0,
+      "log_effect": 0.5551854128757148,
+      "log_loo_effect_range": [
+        0.19777817284523744,
+        0.9441354019358107
+      ],
+      "name": "Glyceric acid",
+      "raw_effect": 0.7855,
+      "row_index": 116
+    },
+    {
+      "database_id": "CHEBI:17754",
+      "direction_stability": 1.0,
+      "log_effect": 1.8546263442671171,
+      "log_loo_effect_range": [
+        1.6266789523402023,
+        2.0645719525486603
+      ],
+      "name": "Glycerol",
+      "raw_effect": 244.08849999999998,
+      "row_index": 117
+    },
+    {
+      "database_id": "CHEBI:17754",
+      "direction_stability": 1.0,
+      "log_effect": 0.6502737200877333,
+      "log_loo_effect_range": [
+        0.49842724825923446,
+        0.8285751710449727
+      ],
+      "name": "Glycerol",
+      "raw_effect": 5.5440000000000005,
+      "row_index": 118
+    },
+    {
+      "database_id": "CHEBI:15428",
+      "direction_stability": 1.0,
+      "log_effect": 1.5365162116238271,
+      "log_loo_effect_range": [
+        1.3553870345431362,
+        1.7057809238818886
+      ],
+      "name": "Glycine",
+      "raw_effect": 102.014,
+      "row_index": 119
+    },
+    {
+      "database_id": "CHEBI:15428",
+      "direction_stability": 0.2222222222222222,
+      "log_effect": -0.01307268569690656,
+      "log_loo_effect_range": [
+        -0.33784342924479993,
+        0.1606544551168276
+      ],
+      "name": "Glycine",
+      "raw_effect": 0.1795,
+      "row_index": 120
+    },
+    {
+      "database_id": "CHEBI:15428",
+      "direction_stability": 1.0,
+      "log_effect": 0.26628975555091816,
+      "log_loo_effect_range": [
+        0.1819155882213821,
+        0.37820213034753103
+      ],
+      "name": "Glycine",
+      "raw_effect": 0.7160000000000002,
+      "row_index": 121
+    },
+    {
+      "database_id": "CHEBI:15428",
+      "direction_stability": 1.0,
+      "log_effect": 0.2791502040749535,
+      "log_loo_effect_range": [
+        0.1219815491614955,
+        0.40004764362060474
+      ],
+      "name": "Glycine",
+      "raw_effect": 0.4939999999999998,
+      "row_index": 122
+    },
+    {
+      "database_id": "CHEBI:16235",
+      "direction_stability": 0.6666666666666666,
+      "log_effect": 0.06118709078091336,
+      "log_loo_effect_range": [
+        -0.21074238471008838,
+        0.3166538086980083
+      ],
+      "name": "Guanine",
+      "raw_effect": 0.1260000000000001,
+      "row_index": 123
+    },
+    {
+      "database_id": "CHEBI:16148",
+      "direction_stability": 1.0,
+      "log_effect": 0.47545247138114144,
+      "log_loo_effect_range": [
+        0.3550012978430046,
+        0.5774056113846586
+      ],
+      "name": "Heptadecane",
+      "raw_effect": 5.214499999999999,
+      "row_index": 124
+    },
+    {
+      "database_id": "CHEBI:30838",
+      "direction_stability": 1.0,
+      "log_effect": -0.9016517174211107,
+      "log_loo_effect_range": [
+        -1.3729050831023881,
+        -0.6555370357504715
+      ],
+      "name": "Itaconic acid",
+      "raw_effect": -1.3954999999999997,
+      "row_index": 125
+    },
+    {
+      "database_id": "CHEBI:16934",
+      "direction_stability": 1.0,
+      "log_effect": 2.659365315609118,
+      "log_loo_effect_range": [
+        2.375986073343171,
+        2.8170492792027257
+      ],
+      "name": "L-3-Cyanoalanine",
+      "raw_effect": 18.108500000000003,
+      "row_index": 126
+    },
+    {
+      "database_id": "CHEBI:16934",
+      "direction_stability": 1.0,
+      "log_effect": 3.001566702297194,
+      "log_loo_effect_range": [
+        2.7291176245913475,
+        3.445503883765542
+      ],
+      "name": "L-3-Cyanoalanine",
+      "raw_effect": 79.58950000000002,
+      "row_index": 127
+    },
+    {
+      "database_id": "CHEBI:16977",
+      "direction_stability": 0.7222222222222222,
+      "log_effect": 0.13473204680597686,
+      "log_loo_effect_range": [
+        -0.13719742868502488,
+        0.4085850037293377
+      ],
+      "name": "L-Alanine",
+      "raw_effect": 0.15800000000000003,
+      "row_index": 128
+    },
+    {
+      "database_id": "CHEBI:17053",
+      "direction_stability": 1.0,
+      "log_effect": 4.284881416657507,
+      "log_loo_effect_range": [
+        3.747544846060836,
+        5.036880326615755
+      ],
+      "name": "L-Aspartic acid",
+      "raw_effect": 269.2745,
+      "row_index": 129
+    },
+    {
+      "database_id": "CHEBI:17053",
+      "direction_stability": 1.0,
+      "log_effect": 3.997696634703067,
+      "log_loo_effect_range": [
+        3.4842906061436416,
+        5.451118694631889
+      ],
+      "name": "L-Aspartic acid",
+      "raw_effect": 272.6425,
+      "row_index": 130
+    },
+    {
+      "database_id": "CHEBI:17053",
+      "direction_stability": 1.0,
+      "log_effect": 1.2680251662530395,
+      "log_loo_effect_range": [
+        1.1336636343909383,
+        1.4015235361919718
+      ],
+      "name": "L-Aspartic acid",
+      "raw_effect": 758.3485000000001,
+      "row_index": 131
+    },
+    {
+      "database_id": "CHEBI:17053",
+      "direction_stability": 1.0,
+      "log_effect": 0.6831094356645298,
+      "log_loo_effect_range": [
+        0.5116879205351001,
+        0.8076563546667361
+      ],
+      "name": "L-Aspartic acid",
+      "raw_effect": 2.3354999999999997,
+      "row_index": 132
+    },
+    {
+      "database_id": "CHEBI:141061",
+      "direction_stability": 1.0,
+      "log_effect": 0.26657373547351304,
+      "log_loo_effect_range": [
+        0.09675409665537849,
+        0.4325865966866743
+      ],
+      "name": "Lauryl laurate(C12:0_C12:0)",
+      "raw_effect": 0.548,
+      "row_index": 133
+    },
+    {
+      "database_id": "CHEBI:17561",
+      "direction_stability": 1.0,
+      "log_effect": 1.7680232026455645,
+      "log_loo_effect_range": [
+        1.5187692784013458,
+        1.9211287565098707
+      ],
+      "name": "L-Cysteine",
+      "raw_effect": 5.706,
+      "row_index": 134
+    },
+    {
+      "database_id": "CHEBI:18050",
+      "direction_stability": 1.0,
+      "log_effect": 2.926467905508499,
+      "log_loo_effect_range": [
+        2.47254473847677,
+        3.3048507089860366
+      ],
+      "name": "L-Glutamine",
+      "raw_effect": 38.306000000000004,
+      "row_index": 135
+    },
+    {
+      "database_id": "CHEBI:18050",
+      "direction_stability": 1.0,
+      "log_effect": 2.5399861015601157,
+      "log_loo_effect_range": [
+        2.3170511560501237,
+        2.8955682072377904
+      ],
+      "name": "L-Glutamine",
+      "raw_effect": 196.0615,
+      "row_index": 136
+    },
+    {
+      "database_id": "CHEBI:17191",
+      "direction_stability": 1.0,
+      "log_effect": 1.5861289026844003,
+      "log_loo_effect_range": [
+        1.1944875803123232,
+        2.1488447807354234
+      ],
+      "name": "L-Isoleucine",
+      "raw_effect": 10.235999999999999,
+      "row_index": 137
+    },
+    {
+      "database_id": "CHEBI:17191",
+      "direction_stability": 1.0,
+      "log_effect": 1.2384229136644866,
+      "log_loo_effect_range": [
+        1.0953529373046313,
+        1.345435352049345
+      ],
+      "name": "L-Isoleucine",
+      "raw_effect": 18.749499999999998,
+      "row_index": 138
+    },
+    {
+      "database_id": "CHEBI:15603",
+      "direction_stability": 1.0,
+      "log_effect": 1.3678508649750145,
+      "log_loo_effect_range": [
+        1.1858205478150277,
+        1.4794862915830547
+      ],
+      "name": "L-Leucine",
+      "raw_effect": 29.7705,
+      "row_index": 139
+    },
+    {
+      "database_id": "CHEBI:18019",
+      "direction_stability": 1.0,
+      "log_effect": 2.023697620540111,
+      "log_loo_effect_range": [
+        1.8995983649313133,
+        2.152195378744631
+      ],
+      "name": "L-Lysine",
+      "raw_effect": 16.367,
+      "row_index": 140
+    },
+    {
+      "database_id": "CHEBI:18019",
+      "direction_stability": 1.0,
+      "log_effect": 2.5011056157272566,
+      "log_loo_effect_range": [
+        2.3411056727760715,
+        2.8199553987044856
+      ],
+      "name": "L-Lysine",
+      "raw_effect": 252.51950000000002,
+      "row_index": 141
+    },
+    {
+      "database_id": "CHEBI:30797",
+      "direction_stability": 1.0,
+      "log_effect": 3.512841113855343,
+      "log_loo_effect_range": [
+        2.775807877115037,
+        3.9295880063253517
+      ],
+      "name": "L-Malic acid",
+      "raw_effect": 222.204,
+      "row_index": 142
+    },
+    {
+      "database_id": "CHEBI:30797",
+      "direction_stability": 0.9444444444444444,
+      "log_effect": 0.6505475185289975,
+      "log_loo_effect_range": [
+        -0.09668944099316357,
+        1.3306991172008678
+      ],
+      "name": "L-Malic acid",
+      "raw_effect": 11.629999999999999,
+      "row_index": 143
+    },
+    {
+      "database_id": "CHEBI:30797",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": 0.31478677909780217,
+      "log_loo_effect_range": [
+        -0.7819028786728159,
+        1.0059193912251825
+      ],
+      "name": "L-Malic acid",
+      "raw_effect": 9.515999999999998,
+      "row_index": 144
+    },
+    {
+      "database_id": "CHEBI:30797",
+      "direction_stability": 1.0,
+      "log_effect": 1.3822917110173538,
+      "log_loo_effect_range": [
+        0.6885986830616848,
+        2.048472456618087
+      ],
+      "name": "L-Malic acid",
+      "raw_effect": 11.985,
+      "row_index": 145
+    },
+    {
+      "database_id": "CHEBI:30797",
+      "direction_stability": 1.0,
+      "log_effect": 0.3024394745850212,
+      "log_loo_effect_range": [
+        0.08106892148507416,
+        0.41589100117106415
+      ],
+      "name": "L-Malic acid",
+      "raw_effect": 0.6650000000000005,
+      "row_index": 146
+    },
+    {
+      "database_id": "CHEBI:30797",
+      "direction_stability": 1.0,
+      "log_effect": 0.40590446669001157,
+      "log_loo_effect_range": [
+        0.22273608754250596,
+        0.49935481747689137
+      ],
+      "name": "L-Malic acid",
+      "raw_effect": 1.5420000000000003,
+      "row_index": 147
+    },
+    {
+      "database_id": "CHEBI:17295",
+      "direction_stability": 1.0,
+      "log_effect": 1.7037000984943003,
+      "log_loo_effect_range": [
+        1.5479240876154847,
+        1.793506727444535
+      ],
+      "name": "L-Phenylalanine",
+      "raw_effect": 20.621999999999996,
+      "row_index": 148
+    },
+    {
+      "database_id": "CHEBI:17115",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": 0.22965981801364402,
+      "log_loo_effect_range": [
+        -0.01796373621647568,
+        0.37767122905478695
+      ],
+      "name": "L-Serine",
+      "raw_effect": 0.277,
+      "row_index": 149
+    },
+    {
+      "database_id": "CHEBI:17115",
+      "direction_stability": 1.0,
+      "log_effect": 0.455314362688491,
+      "log_loo_effect_range": [
+        0.2881779429333071,
+        0.6028895289484166
+      ],
+      "name": "L-Serine",
+      "raw_effect": 1.1395,
+      "row_index": 150
+    },
+    {
+      "database_id": "CHEBI:17115",
+      "direction_stability": 1.0,
+      "log_effect": 0.1772422500184638,
+      "log_loo_effect_range": [
+        0.0556921901397342,
+        0.324597882750587
+      ],
+      "name": "L-Serine",
+      "raw_effect": 0.09000000000000008,
+      "row_index": 151
+    },
+    {
+      "database_id": "CHEBI:17115",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": 0.09216424032271742,
+      "log_loo_effect_range": [
+        -0.07765539849541714,
+        0.2581771015358787
+      ],
+      "name": "L-Serine",
+      "raw_effect": 0.31200000000000006,
+      "row_index": 152
+    },
+    {
+      "database_id": "CHEBI:17115",
+      "direction_stability": 0.8333333333333334,
+      "log_effect": 0.15290326033696988,
+      "log_loo_effect_range": [
+        -0.04977406860097966,
+        0.29652361605451616
+      ],
+      "name": "L-Serine",
+      "raw_effect": 0.3365,
+      "row_index": 153
+    },
+    {
+      "database_id": "CHEBI:16857",
+      "direction_stability": 1.0,
+      "log_effect": 2.0571421028654324,
+      "log_loo_effect_range": [
+        1.089521977046623,
+        3.094907696946074
+      ],
+      "name": "L-Threonine",
+      "raw_effect": 107.3995,
+      "row_index": 154
+    },
+    {
+      "database_id": "CHEBI:16857",
+      "direction_stability": 1.0,
+      "log_effect": 0.5064058023111264,
+      "log_loo_effect_range": [
+        0.3660576807511,
+        0.6645190297693804
+      ],
+      "name": "L-Threonine",
+      "raw_effect": 1.6534999999999997,
+      "row_index": 155
+    },
+    {
+      "database_id": "CHEBI:16828",
+      "direction_stability": 1.0,
+      "log_effect": 1.244136437152125,
+      "log_loo_effect_range": [
+        1.0125621767779727,
+        1.4149216548864976
+      ],
+      "name": "L-Tryptophan",
+      "raw_effect": 2.516,
+      "row_index": 156
+    },
+    {
+      "database_id": "CHEBI:16828",
+      "direction_stability": 1.0,
+      "log_effect": 0.8291822761305521,
+      "log_loo_effect_range": [
+        0.5660065100789199,
+        1.3239980297298464
+      ],
+      "name": "L-Tryptophan",
+      "raw_effect": 1.3775000000000002,
+      "row_index": 157
+    },
+    {
+      "database_id": "CHEBI:16828",
+      "direction_stability": 1.0,
+      "log_effect": 1.7351577383849586,
+      "log_loo_effect_range": [
+        1.6066187344756866,
+        1.9393950326562726
+      ],
+      "name": "L-Tryptophan",
+      "raw_effect": 590.5265,
+      "row_index": 158
+    },
+    {
+      "database_id": "CHEBI:17895",
+      "direction_stability": 1.0,
+      "log_effect": 1.4431768486902987,
+      "log_loo_effect_range": [
+        1.3457180748222415,
+        1.58261668905428
+      ],
+      "name": "L-Tyrosine",
+      "raw_effect": 243.8625,
+      "row_index": 159
+    },
+    {
+      "database_id": "CHEBI:16414",
+      "direction_stability": 1.0,
+      "log_effect": 1.7068536347735583,
+      "log_loo_effect_range": [
+        1.42519147998801,
+        1.892774955453179
+      ],
+      "name": "L-Valine",
+      "raw_effect": 97.76950000000001,
+      "row_index": 160
+    },
+    {
+      "database_id": "CHEBI:29864",
+      "direction_stability": 1.0,
+      "log_effect": 0.9178787352614268,
+      "log_loo_effect_range": [
+        0.8170856173200507,
+        1.0058202733824988
+      ],
+      "name": "Mannitol",
+      "raw_effect": 186.2695,
+      "row_index": 161
+    },
+    {
+      "database_id": "CHEBI:29864",
+      "direction_stability": 1.0,
+      "log_effect": 1.9015817533220236,
+      "log_loo_effect_range": [
+        1.2980977450675262,
+        2.2801096866927373
+      ],
+      "name": "Mannitol",
+      "raw_effect": 36.2945,
+      "row_index": 162
+    },
+    {
+      "database_id": "CHEBI:29864",
+      "direction_stability": 1.0,
+      "log_effect": 0.34199343085476475,
+      "log_loo_effect_range": [
+        0.20759932696873484,
+        0.4739827669522665
+      ],
+      "name": "Mannitol",
+      "raw_effect": 348.8890000000001,
+      "row_index": 163
+    },
+    {
+      "database_id": "CHEBI:75542",
+      "direction_stability": 1.0,
+      "log_effect": 0.615484313918621,
+      "log_loo_effect_range": [
+        0.44255749842409364,
+        0.8893372708419819
+      ],
+      "name": "MG(16:0/0:0/0:0)",
+      "raw_effect": 0.5730000000000001,
+      "row_index": 164
+    },
+    {
+      "database_id": "CHEBI:75542",
+      "direction_stability": 1.0,
+      "log_effect": 0.26657373547351304,
+      "log_loo_effect_range": [
+        0.09675409665537849,
+        0.4325865966866743
+      ],
+      "name": "MG(16:0/0:0/0:0)",
+      "raw_effect": 0.548,
+      "row_index": 165
+    },
+    {
+      "database_id": "CHEBI:17268",
+      "direction_stability": 1.0,
+      "log_effect": 1.1379999387371305,
+      "log_loo_effect_range": [
+        1.0381383126860522,
+        1.2648738241937982
+      ],
+      "name": "Myoinositol",
+      "raw_effect": 581.7149999999999,
+      "row_index": 166
+    },
+    {
+      "database_id": "CHEBI:15940",
+      "direction_stability": 1.0,
+      "log_effect": 0.46227572829347563,
+      "log_loo_effect_range": [
+        0.3679102960192332,
+        0.5384161046652894
+      ],
+      "name": "Nicotinic acid",
+      "raw_effect": 1.3985000000000003,
+      "row_index": 167
+    },
+    {
+      "database_id": "CHEBI:15940",
+      "direction_stability": 1.0,
+      "log_effect": 0.7187745892158679,
+      "log_loo_effect_range": [
+        0.44046332662093235,
+        0.8301014595145673
+      ],
+      "name": "Nicotinic acid",
+      "raw_effect": 3.8024999999999993,
+      "row_index": 168
+    },
+    {
+      "database_id": "CHEBI:15940",
+      "direction_stability": 1.0,
+      "log_effect": 0.24890960882057955,
+      "log_loo_effect_range": [
+        0.026814214992599394,
+        0.5003094569486561
+      ],
+      "name": "Nicotinic acid",
+      "raw_effect": 1.4649999999999999,
+      "row_index": 169
+    },
+    {
+      "database_id": "CHEBI:15940",
+      "direction_stability": 0.8333333333333334,
+      "log_effect": 0.31723489345152756,
+      "log_loo_effect_range": [
+        0.09699523164944401,
+        0.5891677759962272
+      ],
+      "name": "Nicotinic acid",
+      "raw_effect": 0.4219999999999997,
+      "row_index": 170
+    },
+    {
+      "database_id": "CHEBI:32927",
+      "direction_stability": 1.0,
+      "log_effect": 0.37034919336504046,
+      "log_loo_effect_range": [
+        0.31086027483565193,
+        0.42216115552217914
+      ],
+      "name": "Nonadecane",
+      "raw_effect": 3.0395000000000003,
+      "row_index": 171
+    },
+    {
+      "database_id": "CHEBI:32926",
+      "direction_stability": 1.0,
+      "log_effect": 0.37967443456126615,
+      "log_loo_effect_range": [
+        0.29249195642480386,
+        0.47915169844616456
+      ],
+      "name": "Octadecane",
+      "raw_effect": 1.7050000000000005,
+      "row_index": 172
+    },
+    {
+      "database_id": "CHEBI:18257",
+      "direction_stability": 1.0,
+      "log_effect": 2.7529204512035252,
+      "log_loo_effect_range": [
+        2.308029635742046,
+        3.0604836386349867
+      ],
+      "name": "Ornithine",
+      "raw_effect": 293.937,
+      "row_index": 173
+    },
+    {
+      "database_id": "CHEBI:30915",
+      "direction_stability": 1.0,
+      "log_effect": 3.1648662446722207,
+      "log_loo_effect_range": [
+        2.9919394291776933,
+        3.438719201595582
+      ],
+      "name": "Oxoglutaric acid",
+      "raw_effect": 17.0255,
+      "row_index": 174
+    },
+    {
+      "database_id": "CHEBI:30915",
+      "direction_stability": 1.0,
+      "log_effect": 3.1443953440669583,
+      "log_loo_effect_range": [
+        2.4037821109147566,
+        3.518175127227887
+      ],
+      "name": "Oxoglutaric acid",
+      "raw_effect": 159.0615,
+      "row_index": 175
+    },
+    {
+      "database_id": "CHEBI:7916",
+      "direction_stability": 1.0,
+      "log_effect": 0.26553502157452047,
+      "log_loo_effect_range": [
+        0.2130572378454103,
+        0.3706927008133094
+      ],
+      "name": "Pantothenic acid",
+      "raw_effect": 1.444,
+      "row_index": 176
+    },
+    {
+      "database_id": "CHEBI:28897",
+      "direction_stability": 1.0,
+      "log_effect": 0.5195697267947139,
+      "log_loo_effect_range": [
+        0.28926384657332427,
+        0.8065843409095602
+      ],
+      "name": "Pentadecane",
+      "raw_effect": 1.344,
+      "row_index": 177
+    },
+    {
+      "database_id": "CHEBI:28897",
+      "direction_stability": 1.0,
+      "log_effect": 0.3437888148083883,
+      "log_loo_effect_range": [
+        0.22133044567645532,
+        0.42157159765406815
+      ],
+      "name": "Pentadecane",
+      "raw_effect": 5.050999999999998,
+      "row_index": 178
+    },
+    {
+      "database_id": "CHEBI:26078",
+      "direction_stability": 1.0,
+      "log_effect": 1.8141827927299898,
+      "log_loo_effect_range": [
+        0.7918127536195678,
+        2.2139176509961267
+      ],
+      "name": "Phosphoric acid",
+      "raw_effect": 290.4655,
+      "row_index": 179
+    },
+    {
+      "database_id": "CHEBI:26078",
+      "direction_stability": 1.0,
+      "log_effect": 0.9589588660107431,
+      "log_loo_effect_range": [
+        0.8875163108664532,
+        1.0528675809449801
+      ],
+      "name": "Phosphoric acid",
+      "raw_effect": 416.854,
+      "row_index": 180
+    },
+    {
+      "database_id": "CHEBI:17148",
+      "direction_stability": 1.0,
+      "log_effect": 2.0704669430547815,
+      "log_loo_effect_range": [
+        1.9240517138799875,
+        2.267595956466469
+      ],
+      "name": "Putrescine",
+      "raw_effect": 189.385,
+      "row_index": 181
+    },
+    {
+      "database_id": "CHEBI:16010",
+      "direction_stability": 0.7777777777777778,
+      "log_effect": 0.08372447683781736,
+      "log_loo_effect_range": [
+        -1.0278321251738023,
+        1.1598447491881578
+      ],
+      "name": "Pyroglutamic acid",
+      "raw_effect": 138.9805,
+      "row_index": 182
+    },
+    {
+      "database_id": "CHEBI:16010",
+      "direction_stability": 1.0,
+      "log_effect": 1.287160800042341,
+      "log_loo_effect_range": [
+        1.1685916482170056,
+        1.4278430831907896
+      ],
+      "name": "Pyroglutamic acid",
+      "raw_effect": 620.0115000000001,
+      "row_index": 183
+    },
+    {
+      "database_id": "CHEBI:16010",
+      "direction_stability": 1.0,
+      "log_effect": 0.5996663811359035,
+      "log_loo_effect_range": [
+        0.5217325856449514,
+        0.7156496367069386
+      ],
+      "name": "Pyroglutamic acid",
+      "raw_effect": 1.0014999999999998,
+      "row_index": 184
+    },
+    {
+      "database_id": "CHEBI:16010",
+      "direction_stability": 1.0,
+      "log_effect": 0.44369726633688544,
+      "log_loo_effect_range": [
+        0.36519176157305466,
+        0.573386597947271
+      ],
+      "name": "Pyroglutamic acid",
+      "raw_effect": 2.7155000000000005,
+      "row_index": 185
+    },
+    {
+      "database_id": "CHEBI:17521",
+      "direction_stability": 1.0,
+      "log_effect": 0.38264562693660087,
+      "log_loo_effect_range": [
+        0.22280952830774306,
+        0.6344069462460097
+      ],
+      "name": "Quinic acid",
+      "raw_effect": 0.3155000000000001,
+      "row_index": 186
+    },
+    {
+      "database_id": "CHEBI:1230",
+      "direction_stability": 1.0,
+      "log_effect": -1.3977387424796883,
+      "log_loo_effect_range": [
+        -1.7508436781152472,
+        -0.4858144032729035
+      ],
+      "name": "Sophorose",
+      "raw_effect": -40.081999999999994,
+      "row_index": 187
+    },
+    {
+      "database_id": "CHEBI:15440",
+      "direction_stability": 1.0,
+      "log_effect": 1.0233322997086525,
+      "log_loo_effect_range": [
+        0.9104224622058794,
+        1.145330465091246
+      ],
+      "name": "Squalene",
+      "raw_effect": 99.868,
+      "row_index": 188
+    },
+    {
+      "database_id": "CHEBI:28824",
+      "direction_stability": 1.0,
+      "log_effect": 1.351866308800755,
+      "log_loo_effect_range": [
+        1.248191017288164,
+        1.4702195441502868
+      ],
+      "name": "Stigmasterol",
+      "raw_effect": 322.668,
+      "row_index": 189
+    },
+    {
+      "database_id": "CHEBI:28824",
+      "direction_stability": 1.0,
+      "log_effect": 1.270397475070784,
+      "log_loo_effect_range": [
+        1.1309280419842644,
+        1.3649737332214156
+      ],
+      "name": "Stigmasterol",
+      "raw_effect": 39.1255,
+      "row_index": 190
+    },
+    {
+      "database_id": "CHEBI:15741",
+      "direction_stability": 0.6666666666666666,
+      "log_effect": 0.060314554369560985,
+      "log_loo_effect_range": [
+        -0.32350906948601355,
+        0.3464114708612685
+      ],
+      "name": "Succinic acid",
+      "raw_effect": 0.1805000000000001,
+      "row_index": 191
+    },
+    {
+      "database_id": "CHEBI:15741",
+      "direction_stability": 1.0,
+      "log_effect": 1.1884884956186217,
+      "log_loo_effect_range": [
+        0.8959797861687417,
+        1.3356380736195264
+      ],
+      "name": "Succinic acid",
+      "raw_effect": 27.8545,
+      "row_index": 192
+    },
+    {
+      "database_id": "CHEBI:15741",
+      "direction_stability": 1.0,
+      "log_effect": 0.7890318918137549,
+      "log_loo_effect_range": [
+        0.6830343550322597,
+        0.8455359084135554
+      ],
+      "name": "Succinic acid",
+      "raw_effect": 15.787999999999998,
+      "row_index": 193
+    },
+    {
+      "database_id": "CHEBI:15741",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": 0.13281190307408836,
+      "log_loo_effect_range": [
+        0.009925885858683287,
+        0.27883157846953605
+      ],
+      "name": "Succinic acid",
+      "raw_effect": 0.07450000000000001,
+      "row_index": 194
+    },
+    {
+      "database_id": "CHEBI:17992",
+      "direction_stability": 1.0,
+      "log_effect": 0.46858413855123926,
+      "log_loo_effect_range": [
+        0.17452361733858895,
+        0.8027294053505477
+      ],
+      "name": "Sucrose",
+      "raw_effect": 0.6544999999999999,
+      "row_index": 195
+    },
+    {
+      "database_id": "CHEBI:17992",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": 0.1869288044212798,
+      "log_loo_effect_range": [
+        -0.0019788697882869855,
+        0.41088755770775265
+      ],
+      "name": "Sucrose",
+      "raw_effect": 163.70399999999995,
+      "row_index": 196
+    },
+    {
+      "database_id": "CHEBI:17992",
+      "direction_stability": 0.8888888888888888,
+      "log_effect": -1.1135103064378251,
+      "log_loo_effect_range": [
+        -1.5479768760312087,
+        0.26562383488004193
+      ],
+      "name": "Sucrose",
+      "raw_effect": -124.17549999999999,
+      "row_index": 197
+    },
+    {
+      "database_id": "CHEBI:17992",
+      "direction_stability": 1.0,
+      "log_effect": 1.0981893068117632,
+      "log_loo_effect_range": [
+        1.0173924557087455,
+        1.2856510727442436
+      ],
+      "name": "Sucrose",
+      "raw_effect": 19.467,
+      "row_index": 198
+    },
+    {
+      "database_id": "CHEBI:16551",
+      "direction_stability": 1.0,
+      "log_effect": 2.9001935322619685,
+      "log_loo_effect_range": [
+        2.376547528923923,
+        3.561993012878972
+      ],
+      "name": "Trehalose",
+      "raw_effect": 54.193999999999996,
+      "row_index": 199
+    },
+    {
+      "database_id": "CHEBI:31006",
+      "direction_stability": 1.0,
+      "log_effect": 0.49310151832356086,
+      "log_loo_effect_range": [
+        0.16171028507048524,
+        0.6444520580206122
+      ],
+      "name": "Triacontane",
+      "raw_effect": 1.7055,
+      "row_index": 200
+    },
+    {
+      "database_id": "CHEBI:35998",
+      "direction_stability": 1.0,
+      "log_effect": 0.5035224661404302,
+      "log_loo_effect_range": [
+        0.2507360503970653,
+        0.7349591937519865
+      ],
+      "name": "Tridecane",
+      "raw_effect": 1.1,
+      "row_index": 201
+    },
+    {
+      "database_id": "CHEBI:35998",
+      "direction_stability": 1.0,
+      "log_effect": 0.19930269731047945,
+      "log_loo_effect_range": [
+        0.06749530956332794,
+        0.34432606041489944
+      ],
+      "name": "Tridecane",
+      "raw_effect": 5.4895,
+      "row_index": 202
+    },
+    {
+      "database_id": "CHEBI:35998",
+      "direction_stability": 1.0,
+      "log_effect": 0.21026610756202424,
+      "log_loo_effect_range": [
+        0.07947111470647461,
+        0.3519527471189823
+      ],
+      "name": "Tridecane",
+      "raw_effect": 1.1879999999999997,
+      "row_index": 203
+    },
+    {
+      "database_id": "CHEBI:35998",
+      "direction_stability": 1.0,
+      "log_effect": 0.2240483921682601,
+      "log_loo_effect_range": [
+        0.09431264158540187,
+        0.3803103580867191
+      ],
+      "name": "Tridecane",
+      "raw_effect": 1.085,
+      "row_index": 204
+    },
+    {
+      "database_id": "CHEBI:35998",
+      "direction_stability": 1.0,
+      "log_effect": 0.2312256060656943,
+      "log_loo_effect_range": [
+        0.09599233766171911,
+        0.37039244059776677
+      ],
+      "name": "Tridecane",
+      "raw_effect": 0.8085,
+      "row_index": 205
+    },
+    {
+      "database_id": "CHEBI:46342",
+      "direction_stability": 1.0,
+      "log_effect": 0.4027431585544822,
+      "log_loo_effect_range": [
+        0.14400446794329058,
+        0.6607792490672353
+      ],
+      "name": "Undecane",
+      "raw_effect": 0.46850000000000014,
+      "row_index": 206
+    },
+    {
+      "database_id": "CHEBI:46342",
+      "direction_stability": 0.7222222222222222,
+      "log_effect": 0.13473204680597686,
+      "log_loo_effect_range": [
+        -0.13719742868502488,
+        0.4085850037293377
+      ],
+      "name": "Undecane",
+      "raw_effect": 0.15800000000000003,
+      "row_index": 207
+    },
+    {
+      "database_id": "CHEBI:46342",
+      "direction_stability": 1.0,
+      "log_effect": 0.5441468013011254,
+      "log_loo_effect_range": [
+        0.410905724133816,
+        0.6490022631784008
+      ],
+      "name": "Undecane",
+      "raw_effect": 1.4660000000000002,
+      "row_index": 208
+    },
+    {
+      "database_id": "CHEBI:46342",
+      "direction_stability": 0.5,
+      "log_effect": -0.09652667284616778,
+      "log_loo_effect_range": [
+        -0.3104298664728349,
+        0.32566247525690084
+      ],
+      "name": "Undecane",
+      "raw_effect": 0.9059999999999988,
+      "row_index": 209
+    },
+    {
+      "database_id": "CHEBI:46342",
+      "direction_stability": 0.8333333333333334,
+      "log_effect": 0.06021263026255319,
+      "log_loo_effect_range": [
+        -0.09439008891991207,
+        0.3528907772631069
+      ],
+      "name": "Undecane",
+      "raw_effect": 0.5695000000000001,
+      "row_index": 210
+    },
+    {
+      "database_id": "CHEBI:16704",
+      "direction_stability": 1.0,
+      "log_effect": 1.330330610733372,
+      "log_loo_effect_range": [
+        0.9693159608449502,
+        1.5540956699265758
+      ],
+      "name": "Uridine",
+      "raw_effect": 14.729,
+      "row_index": 211
+    }
+  ],
+  "sample_columns": [
+    "MR-CTB51A_replicate1",
+    "MR-CTB51A_replicate2",
+    "MR-CTB51A_replicate3",
+    "MR-CTB51A_replicate4",
+    "NPB-HP_replicate1",
+    "NPB-HP_replicate2",
+    "NPB-HP_replicate3",
+    "NPB-HP_replicate4",
+    "NPB-HP_replicate5"
+  ],
+  "source": "https://www.ebi.ac.uk/metabolights/ws/studies/MTBLS437/download?file=m_MTBLS437_seed_metabolome_metabolite_profiling_mass_spectrometry_v2_maf.tsv",
+  "source_sha256": "c4889ddd55928b8993ababeaecb457923460eb782dbbe7271e27db15a81b4320"
+}

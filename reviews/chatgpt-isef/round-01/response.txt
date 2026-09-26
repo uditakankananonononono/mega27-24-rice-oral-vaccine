@@ -1,0 +1,372 @@
+ISEF-style judge critique (computational biology, published-data-only)
+Overall verdict
+
+The project is currently a careful data-forensics/exploratory metabolomics study, not yet a biological discovery study. The strongest aspect is intellectual honesty: you are explicitly separating exploratory observations from confirmatory claims, recognizing confounding, and refusing to equate metabolite intensity with antigen dose.
+
+The largest barrier to an ISEF-level computational biology contribution is not the unresolved accession issue or the lack of a predictive model. The central problem is:
+
+The current analysis asks whether one small, post-selected sample contrast looks unusual, but it does not yet define a biologically meaningful prediction target, independent test, or falsifiable mechanism of variation.
+
+A judge will likely ask:
+
+“What is the computational innovation?”
+
+“What exactly is being predicted?”
+
+“What would make the method fail?”
+
+“Why does this teach us something beyond this one rice dataset?”
+
+Right now the answer is unclear.
+
+1. Biggest methodological weakness
+Weakness: the analysis target is not independent of the discovery process
+
+The current result:
+
+CTB51A vs hydroponic Nipponbare using 212 named metabolites, centroid distance statistic, observed rank 1/126 label partitions
+
+is mathematically interesting but scientifically weak.
+
+Why?
+
+A. The contrast was chosen after observing the data
+
+You already acknowledge this. That matters.
+
+The 1/126 statistic answers:
+
+“Among these specific permutations, how extreme is the observed separation?”
+
+It does not answer:
+
+“Did CTB51A seeds exhibit a reproducible metabolomic signature that generalizes?”
+
+A skeptical judge will say:
+
+“Interesting separation. Now show me another seed bank, another environment, another batch, or another preprocessing choice.”
+
+B. The biological confounding structure is dominant
+
+The available groups are not a clean experiment:
+
+CTB51A genotype/background
+
+hydroponic versus field growth
+
+RNAi line
+
+seed-bank generation differences
+
+batch effects
+
+environmental effects
+
+The model could simply learn:
+
+“this sample came from condition X”
+
+rather than anything specific about MucoRice-CTB biology.
+
+C. Small n creates a high-dimensional illusion problem
+
+You have:
+
+~9 samples in the key comparison
+
+212 metabolite features
+
+This is the classic p >> n setting.
+
+Any flexible classifier or distance metric can easily find separation.
+
+The question is not:
+
+“Can I separate these five and four samples?”
+
+The question is:
+
+“Can a method discover stable biological variation when the labels are hidden?”
+
+2. One concrete novelty addition I would accept
+Proposed novelty: Metabolomic Stability Map (MSM): a cross-condition robustness analysis tool
+
+This is not another metadata audit. It creates a new measurable computational object.
+
+Core idea
+
+Build a tool that asks:
+
+“Which molecular features represent stable rice seed-state variation versus features that are fragile artifacts of environment, genotype, or preprocessing?”
+
+Instead of predicting CTB51A status, predict feature reliability.
+
+Analysis design
+
+For every metabolite feature:
+
+Calculate its stability across:
+
+1. Resampling
+
+Repeatedly:
+
+randomly remove one replicate
+
+recompute feature ranking
+
+measure whether the feature remains informative
+
+Example outputs:
+
+rank stability
+
+variance of effect size
+
+confidence interval of separation contribution
+
+2. Perturbation of preprocessing
+
+Repeat under:
+
+log transformation
+
+row-wise scaling
+
+alternative normalization choices
+
+missing-value handling choices
+
+A feature that only appears after one pipeline is unreliable.
+
+3. Cross-group challenge
+
+Train the discovery model on:
+
+Example:
+
+CTB51A vs hydroponic NPB
+
+Then test whether the identified features:
+
+remain separated in field NPB
+
+remain separated in RNAi samples
+
+disappear when expected
+
+The output is not:
+
+“this is a vaccine biomarker.”
+
+The output is:
+
+“These metabolomic features are robust indicators of seed metabolic state under published measurement conditions.”
+
+That is a defensible computational biology contribution.
+
+Why this is novel enough for ISEF
+
+The novelty is not a new algorithm. ISEF does not require a new neural architecture.
+
+The novelty is:
+
+A reproducible framework that distinguishes biologically stable molecular patterns from dataset-specific artifacts in small public omics studies.
+
+This addresses a real computational biology problem: reproducibility in low-n omics.
+
+3. Strongest fair baseline
+
+Your comparison should not be:
+
+“my method versus nothing.”
+
+Use simple, respected baselines.
+
+Baseline 1: random feature ranking
+
+Question:
+
+Does your stability score identify more reproducible features than random selection?
+
+Evaluation:
+
+randomly select equal numbers of features
+
+measure downstream stability
+
+repeat many times
+
+Baseline 2: standard differential analysis
+
+Examples:
+
+Welch t-test ranking
+
+Mann–Whitney ranking
+
+fold-change ranking
+
+Your method must show:
+
+“features selected by stability remain more consistent under perturbations than conventional ranking.”
+
+Baseline 3: PCA-distance baseline
+
+Current analysis is distance-based.
+
+Compare against:
+
+PCA first components
+
+Euclidean distance in PCA space
+
+PLS-DA only as a descriptive comparison (with extreme caution because n is tiny)
+
+Do not claim predictive superiority unless the test is truly independent.
+
+4. Held-out evaluation design
+
+You need a precommitted split.
+
+Given the tiny dataset, do not randomly split individual samples.
+
+That creates leakage.
+
+Better:
+
+Leave-one-condition-out validation
+
+Example:
+
+Discovery
+
+Use:
+
+CTB51A
+
+hydroponic NPB
+
+Hold out:
+
+field NPB
+
+Question:
+
+Do the "stable metabolic state" features behave consistently in unseen environmental conditions?
+
+Then reverse:
+
+Train:
+
+CTB51A + field NPB
+
+Test:
+
+hydroponic NPB
+
+The exact direction should be decided before running.
+
+5. Falsification criterion
+
+A serious project needs a way to lose.
+
+A good negative criterion:
+
+The method fails if:
+
+Feature stability scores are no better than random feature selection when evaluated on held-out condition groups.
+
+Operationally:
+
+Reject the hypothesis if:
+
+top-ranked features do not reproduce directionality,
+
+stability-selected feature sets perform no better than random,
+
+results disappear under reasonable preprocessing alternatives.
+
+A stronger negative control:
+
+Label permutation control
+
+Randomly shuffle sample labels while preserving:
+
+feature matrix
+
+preprocessing pipeline
+
+validation structure
+
+Your method should lose its apparent stability advantage.
+
+If it still finds “robust biomarkers” after random labels, the tool is detecting artifacts.
+
+6. What endpoint can this actually claim?
+
+It cannot speak to:
+
+oral vaccine dose
+
+antigen expression level
+
+immune response
+
+protection
+
+vaccine efficacy
+
+The metabolomics table is not an antigen quantification assay.
+
+The defensible endpoint is:
+
+“reproducibility and stability of published rice seed metabolomic signatures under biological and computational perturbations.”
+
+Possible narrower claims:
+
+seed metabolic-state classification robustness
+
+public omics reproducibility assessment
+
+feature stability ranking
+
+condition-associated metabolite-pattern robustness
+
+7. Data sources
+
+The sources you already have are probably sufficient for a first implementation.
+
+For additional validation, only add datasets if they contain:
+
+processed metabolomics table,
+
+multiple biological replicates,
+
+clearly documented conditions.
+
+Potential repositories to check (verify availability yourself before using):
+
+MetaboLights: https://www.ebi.ac.uk/metabolights/
+
+Metabolomics Workbench: https://www.metabolomicsworkbench.org/
+
+EMBL-EBI Expression Atlas: https://www.ebi.ac.uk/gxa/home
+
+I am not asserting that a suitable rice MucoRice-compatible validation dataset exists in those repositories; they are candidate public sources.
+
+Judge ranking of impact-per-hour
+Change	Impact	Time
+Build stability map tool	Very high	Medium
+Add condition-held-out validation	Very high	Medium
+Add permutation/random-feature controls	High	Low
+Resolve accession discrepancy	Medium	Low
+Build predictive CTB51A classifier	Low/negative	High
+Final judge recommendation
+
+Do not pursue “AI predicts vaccine-related metabolomic signature.” The evidence cannot support that.
+
+The strongest version of this project is:
+
+A reproducible computational framework that identifies which public plant metabolomics signatures survive biological and analytical perturbation, demonstrated on MucoRice-associated seed meta
+
