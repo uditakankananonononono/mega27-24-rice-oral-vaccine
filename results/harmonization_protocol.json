@@ -1,0 +1,70 @@
+{
+  "MTBLS288": {
+    "distinct_analytes": 31,
+    "duplicate_rows_collapsed_by_median": 0,
+    "feature_rows": 31,
+    "files": [
+      "4615ea89e30ffc5ae14c60b4ce76ce8610e518b4ee3576636d5c18986673cb52"
+    ],
+    "named_rows": 31,
+    "named_rows_without_identifier": 0,
+    "sample_columns": 80
+  },
+  "MTBLS437": {
+    "distinct_analytes": 104,
+    "duplicate_rows_collapsed_by_median": 108,
+    "feature_rows": 351,
+    "files": [
+      "c4889ddd55928b8993ababeaecb457923460eb782dbbe7271e27db15a81b4320"
+    ],
+    "named_rows": 212,
+    "named_rows_without_identifier": 0,
+    "sample_columns": 18
+  },
+  "MTBLS801_split": {
+    "distinct_analytes": 62,
+    "duplicate_rows_collapsed_by_median": 143,
+    "feature_rows": 205,
+    "files": [
+      "21a91a3e3ead8e23e0566f6f34e535447025a81801ae335b2e59efa3645b9d99"
+    ],
+    "named_rows": 205,
+    "named_rows_without_identifier": 0,
+    "sample_columns": 1
+  },
+  "MTBLS801_splitless": {
+    "distinct_analytes": 199,
+    "duplicate_rows_collapsed_by_median": 507,
+    "feature_rows": 706,
+    "files": [
+      "172e5e0c7821f9145a0d15a8b0e555afe2acae5496fee5aeec2728f3313837f8"
+    ],
+    "named_rows": 706,
+    "named_rows_without_identifier": 0,
+    "sample_columns": 1
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "harmonization_verdict": {
+    "allowed_use": "analyte-presence overlap and within-study contrasts only",
+    "batch_bridge_or_reference_samples": false,
+    "comparable_units_between_studies": false,
+    "quantitative_pooling": "not defensible: MTBLS437 peak-intensity ratios to internal standards (testosterone/ribitol) vs platform-specific processed GC-MS values in MTBLS288/801; no shared reference sample or batch bridge",
+    "shared_internal_standard_between_studies": false
+  },
+  "identifier_overlap_with_MTBLS437_deduped": {
+    "MTBLS288": 12,
+    "MTBLS801_split": 19,
+    "MTBLS801_splitless": 35
+  },
+  "limits": [
+    "Dedupe collapses feature rows to distinct identifiers; it does not create independent measurements or new accession datasets",
+    "MTBLS288/801 study different biological questions (development, field stress) and are not held-out MucoRice cohorts",
+    "Harmonization verdict is a protocol-level result about data comparability, not a biological finding or comparator win"
+  ],
+  "name_only_keys_excluded_from_overlap": true
+}
