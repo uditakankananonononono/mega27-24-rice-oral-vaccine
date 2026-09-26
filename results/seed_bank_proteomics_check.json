@@ -1,0 +1,43 @@
+{
+  "common_protein_rows": 477,
+  "count_ratio_above_2": 38,
+  "count_ratio_below_0_5": 50,
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "individual_ratio_median": 1.0,
+  "individual_ratio_minmax": [
+    0.07142857142857142,
+    6.0
+  ],
+  "limits": [
+    "Published supplementary protein-level aggregated PSM counts, not individual seed-level replicates, not 477 independently accessioned datasets",
+    "Shared-protein list excludes proteins unique to either bank; correlations and ratio distribution condition on detected-in-both proteins",
+    "PSM abundance cannot be equated to cholera antigen dose, immune efficacy or storage/digestion stability; exploratory audits do not establish a comparator win"
+  ],
+  "log1p_psm_pearson_r_squared": 0.8520506117588432,
+  "pdftotext_row_order_discontinuities": [
+    [
+      367,
+      392
+    ],
+    [
+      460,
+      368
+    ],
+    [
+      391,
+      461
+    ]
+  ],
+  "psm_ratio_of_sums": 0.9476539014507908,
+  "psm_sum_msb": 15302,
+  "psm_sum_nsb": 14501,
+  "raw_psm_pearson_r_squared": 0.9815032300164747,
+  "sha256": "1517246b931d29fbd8b617318d683028dc40ab687625f21641a80cfbc21cecce",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7814724/supplementaryFiles",
+  "supplement": "12864_2020_7355_MOESM3_ESM.pdf"
+}
