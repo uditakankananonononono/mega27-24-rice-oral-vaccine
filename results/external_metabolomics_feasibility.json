@@ -1,0 +1,55 @@
+{
+  "MTBLS288": {
+    "feature_rows": 31,
+    "files": [
+      {
+        "path": "data/sources/m_MTBLS288_dynamic_metabolomics_of_rice_grain_metabolite_profiling_mass_spectrometry_v2_maf.tsv",
+        "sha256": "4615ea89e30ffc5ae14c60b4ce76ce8610e518b4ee3576636d5c18986673cb52"
+      }
+    ],
+    "nonempty_identifiers": 31,
+    "shared_database_identifiers_with_MTBLS437": 12,
+    "shared_name_strings_with_MTBLS437": 6,
+    "unique_named_analytes": 31
+  },
+  "MTBLS437": {
+    "feature_rows": 351,
+    "files": [
+      {
+        "path": "data/sources/MTBLS437_maf.tsv",
+        "sha256": "c4889ddd55928b8993ababeaecb457923460eb782dbbe7271e27db15a81b4320"
+      }
+    ],
+    "nonempty_identifiers": 104,
+    "unique_named_analytes": 104
+  },
+  "MTBLS801": {
+    "feature_rows": 911,
+    "files": [
+      {
+        "path": "data/sources/m_MTBLS801_Splitless_GC_mass_spectrometry_v2_maf.tsv",
+        "sha256": "172e5e0c7821f9145a0d15a8b0e555afe2acae5496fee5aeec2728f3313837f8"
+      },
+      {
+        "path": "data/sources/m_MTBLS801_Split_GC_mass_spectrometry_v2_maf.tsv",
+        "sha256": "21a91a3e3ead8e23e0566f6f34e535447025a81801ae335b2e59efa3645b9d99"
+      }
+    ],
+    "nonempty_identifiers": 202,
+    "shared_database_identifiers_with_MTBLS437": 35,
+    "shared_name_strings_with_MTBLS437": 22,
+    "unique_named_analytes": 345
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "MTBLS288 rice grain developmental-stage GC-MS and MTBLS801 heat/drought field cultivar study are not equivalent to MucoRice-CTB 51A; cross-study labels and biological conditions differ.",
+    "The MAF tables are processed features, not raw spectra or independently accessioned samples.",
+    "No harmonized quantification, normalization or phenotypic validation has been attempted; overlapping names do not imply matched chemical identity or units.",
+    "These two sources cannot serve as held-out CTB51A-vs-parent classification cohorts without changing the task."
+  ]
+}
