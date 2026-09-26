@@ -1,0 +1,50 @@
+{
+  "abundance_column_count": 18,
+  "accessions": [
+    "MTBLS437",
+    "DRP010027"
+  ],
+  "ena_run_metadata": [
+    {
+      "experiment_accession": "DRX362635",
+      "run_accession": "DRR376734",
+      "sample_accession": "SAMD00491847"
+    }
+  ],
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": "Coverage and source identity only. MTBLS437 metabolite features are not independently accessioned datasets. DRP010027 is metadata only, no raw genomic reads fetched; its line 19A is not the 51A seed-bank comparison. No efficacy, novelty, or causal inference.",
+  "metabolights_metabolite_rows": 351,
+  "non_unknown_metabolite_name_rows": 212,
+  "nonblank_abundance_cells_by_sample": {
+    "MR-CTB51A_replicate1": 351,
+    "MR-CTB51A_replicate2": 351,
+    "MR-CTB51A_replicate3": 351,
+    "MR-CTB51A_replicate4": 351,
+    "MR-RNAi_replicate1": 351,
+    "MR-RNAi_replicate2": 351,
+    "MR-RNAi_replicate3": 351,
+    "MR-RNAi_replicate4": 351,
+    "MR-RNAi_replicate5": 351,
+    "NPB-HP_replicate1": 351,
+    "NPB-HP_replicate2": 351,
+    "NPB-HP_replicate3": 351,
+    "NPB-HP_replicate4": 351,
+    "NPB-HP_replicate5": 351,
+    "NPB-PF_replicate1": 351,
+    "NPB-PF_replicate2": 351,
+    "NPB-PF_replicate3": 351,
+    "NPB-PF_replicate4": 351
+  },
+  "sample_names_match_abundance_columns": true,
+  "sample_rows": 18,
+  "source_sha256": {
+    "data/sources/DRP010027_ena_runs.tsv": "b034e0f6c03fac92bcf7c8d219c39fffe03a3d65fcab1bdd6fb72e937562f864",
+    "data/sources/MTBLS437_maf.tsv": "c4889ddd55928b8993ababeaecb457923460eb782dbbe7271e27db15a81b4320",
+    "data/sources/MTBLS437_samples.tsv": "c35b915972b6080104ae09c5100f69c9f13a6ca9735573044482b50b7a42f44d"
+  }
+}
