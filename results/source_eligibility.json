@@ -1,0 +1,52 @@
+{
+  "sources": {
+    "article": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7814724/",
+    "ena_report": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=DRA011151&result=read_run&fields=run_accession,experiment_accession,sample_accession&format=tsv"
+  },
+  "sha256": {
+    "data/sources/pmc7814724.xml": "a972a7b1454fd949e32fdb4a396da19769666c5f79c09f147834a407c422ddfe",
+    "data/sources/DRA011151_ena_runs.tsv": "64f654f977fb7af7217e4d3445bb4170e5bc6bde6b15559dfc1a54d92741a681"
+  },
+  "study": "DRA011151",
+  "run_count": 6,
+  "runs": [
+    {
+      "run_accession": "DRR256918",
+      "experiment_accession": "DRX246636",
+      "sample_accession": "SAMD00259651"
+    },
+    {
+      "run_accession": "DRR256919",
+      "experiment_accession": "DRX246637",
+      "sample_accession": "SAMD00259652"
+    },
+    {
+      "run_accession": "DRR256920",
+      "experiment_accession": "DRX246638",
+      "sample_accession": "SAMD00259653"
+    },
+    {
+      "run_accession": "DRR256921",
+      "experiment_accession": "DRX246639",
+      "sample_accession": "SAMD00259654"
+    },
+    {
+      "run_accession": "DRR256923",
+      "experiment_accession": "DRX246641",
+      "sample_accession": "SAMD00259656"
+    },
+    {
+      "run_accession": "DRR256922",
+      "experiment_accession": "DRX246640",
+      "sample_accession": "SAMD00259655"
+    }
+  ],
+  "paper_availability_accession": "DRX011151",
+  "accession_discrepancy": "Paper availability paragraph names DRX011151; ENA run report names DRX246636-DRX246641. Unresolved, not corrected.",
+  "gate_credit": {
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "audited_derivations": 0,
+    "paper_pages": 0
+  }
+}
