@@ -1,0 +1,31 @@
+{
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "This is an author-reported three-lot result and not individual lot measurements or an independent re-analysis.",
+    "The 19A/51A context includes distinct line and cultivation conditions; arithmetic difference is descriptive, not causal or a same-task model benchmark.",
+    "Cultivation yield sampled six plants per round, while antigen content is reported for n=3 lots; do not equate plant-level yield samples with antigen biological replicates.",
+    "Published protein amount is not intestinal delivered dose, vaccine efficacy or storage/digestion robustness."
+  ],
+  "lot_summary": {
+    "19A_mean_ug_per_mg": 4.94,
+    "19A_reported_plus_minus_ug_per_mg": 0.29,
+    "51A_mean_ug_per_mg": 6.52,
+    "51A_reported_plus_minus_ug_per_mg": 0.22,
+    "difference_51A_minus_19A_ug_per_mg": 1.5799999999999992,
+    "n_lots_reported": 3,
+    "ratio_19A_over_51A": 0.7576687116564418,
+    "reported_plus_minus_semantics": "not inferred from displayed paragraph; inspect original figure/statistical methods before treating as SD or SEM"
+  },
+  "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10978600/",
+  "source_claims": {
+    "cultivation": "To evaluate production stability, three consecutive cultivation experiments were conducted using the master seed bank. The results of the germination rate and pre-transplant growth assessment demonstrated the viability of the seeds and the uniformity of the environment for seedling growth (data not shown). The rice flour or active pharmaceutical ingredient used for analysis was obtained according to the process flowchart shown in Figure 1A . The brown rice yield from each of the three cultivation rounds was calculated based on six randomly selected plants, respectively. The yields were either equal to or greater than 588.5 g/m 2 ( Figure 1C ).",
+    "lot_expression": "The presence of the CTB gene and absence of the HPT gene were confirmed by genomic PCR ( Supplementary Figure 4 ), and the presence of CTB proteins was confirmed by western blot analysis ( Figure 2 ). The endosperm proteins glutelin A and 13K prolamin were downregulated ( Figure 2 ). Downregulation of mRNA of glutelins A and B and 13K prolamin by RNAi was confirmed by quantitative real-time PCR ( Supplementary Figure 5 ). SDS-PAGE densitometric analysis (n=3 lot) showed that the CTB protein level was 4.94 \u00b1 0.29 \u03bcg/mg in line 19A and 6.52 \u00b1 0.22 \u03bcg/mg in line 51A.",
+    "yield_sample": "To evaluate production stability, three consecutive cultivation experiments were conducted using the master seed bank. The results of the germination rate and pre-transplant growth assessment demonstrated the viability of the seeds and the uniformity of the environment for seedling growth (data not shown). The rice flour or active pharmaceutical ingredient used for analysis was obtained according to the process flowchart shown in Figure 1A . The brown rice yield from each of the three cultivation rounds was calculated based on six randomly selected plants, respectively. The yields were either equal to or greater than 588.5 g/m 2 ( Figure 1C )."
+  },
+  "source_sha256": "e547fa13d806001eb8f833b3e4bbcd264a8ae7fc6fb18547eb8d09348f5ba6ee"
+}
