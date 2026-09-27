@@ -1,0 +1,52 @@
+{
+  "descriptive_arithmetic": {
+    "2021_NSB_minus_MSB_ug_per_mg": -0.6200000000000001,
+    "2021_NSB_over_MSB": 0.9038759689922481,
+    "2024_19A_minus_51A_ug_per_mg": -1.5799999999999992,
+    "2024_19A_over_51A": 0.7576687116564418,
+    "between_publications_2024_51A_minus_2021_MSB_ug_per_mg": 0.0699999999999994
+  },
+  "evidence": {
+    "2021_seed_bank": {
+      "archive_sha256": "a972a7b1454fd949e32fdb4a396da19769666c5f79c09f147834a407c422ddfe",
+      "quote": "NSB was produced from MSB in a fully closed-type plant production facility built at The Institute of Medical Science, The University of Tokyo (IMSUT) (Fig. 1 ). NSB yield was 411.8\u2009g/m 2 , and that of MSB was 387.7\u2009g/m 2 . Average CTB content (\u03bcg/mg seed weight) was 6.45\u2009\u00b1\u20090.89 in MSB and 5.83\u2009\u00b1\u20090.58 in NSB, with no significant difference ( P =\u20090.60). These results suggest that the yield and CTB amounts were very similar between NSB and MSB. Fig. 1 Scheme for generation of MSB and NSB. Rice calli were transformed by Agrobacterium . The transgenic line 51A was self-pollinated for five generations to fix the transgene, and the seeds of the sixth generation produced by T5 plants were defined as the master seed bank (MSB). T6 plants were grown from part of the MSB seeds and self-pollinated to produce the next seed bank (NSB; T7 seeds) in a fully closed-type plant production facility built in IMSUT",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7814724/"
+    },
+    "2024_line_comparison": {
+      "archive_sha256": "e547fa13d806001eb8f833b3e4bbcd264a8ae7fc6fb18547eb8d09348f5ba6ee",
+      "quote": "The presence of the CTB gene and absence of the HPT gene were confirmed by genomic PCR ( Supplementary Figure 4 ), and the presence of CTB proteins was confirmed by western blot analysis ( Figure 2 ). The endosperm proteins glutelin A and 13K prolamin were downregulated ( Figure 2 ). Downregulation of mRNA of glutelins A and B and 13K prolamin by RNAi was confirmed by quantitative real-time PCR ( Supplementary Figure 5 ). SDS-PAGE densitometric analysis (n=3 lot) showed that the CTB protein level was 4.94 \u00b1 0.29 \u03bcg/mg in line 19A and 6.52 \u00b1 0.22 \u03bcg/mg in line 51A.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10978600/"
+    }
+  },
+  "gate_credit": {
+    "applied_external_services": 0,
+    "audited_derivations": 0,
+    "individually_fetched_used_accessions": 0,
+    "substantive_paper_pages": 0
+  },
+  "interpretation_limits": [
+    "The two publications describe different experimental settings and sample frames; 2024 line 51A must not be treated as a replication of 2021 MSB or NSB.",
+    "A small difference between published 51A and MSB means is descriptive coincidence, not an equivalence or stability test.",
+    "The displayed \u00b1 semantics and per-lot/per-seed values are not established in these passages; do not compute confidence intervals, pool variance, or compare P values.",
+    "Authors\u2019 2021 P=0.60 is not evidence of equivalence; there is no independent dose/digestion or clinical outcome here."
+  ],
+  "source_reported": {
+    "2021_seed_bank": {
+      "MSB_mean_ug_per_mg": 6.45,
+      "MSB_plus_minus_unspecified": 0.89,
+      "NSB_mean_ug_per_mg": 5.83,
+      "NSB_plus_minus_unspecified": 0.58,
+      "authors_p_value": 0.6,
+      "comparison": "MSB versus NSB, distinct seed-bank generations",
+      "line": "51A"
+    },
+    "2024_line_comparison": {
+      "comparison": "distinct lines in 2024 study, n=3 lots as reported",
+      "line19A_mean_ug_per_mg": 4.94,
+      "line19A_plus_minus_unspecified": 0.29,
+      "line51A_mean_ug_per_mg": 6.52,
+      "line51A_plus_minus_unspecified": 0.22,
+      "lines": "19A versus 51A"
+    }
+  }
+}
