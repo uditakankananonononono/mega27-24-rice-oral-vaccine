@@ -1,0 +1,50 @@
+{
+  "accessions_printed_with_internal_space": 5,
+  "all_strict_ratios_gte_2": true,
+  "caption_as_printed_in_text_layer": "Sapplementary Table 5. Salt-soluble proteins of MucoRice-CTB19A and WT rice identified in both rices by Shot-gun MS analysis",
+  "count_ratio_above_2": 36,
+  "count_ratio_equal_2": 7,
+  "defective_printed_rows": [
+    {
+      "accession": "BAA77337.1",
+      "defect": "ratio value orphaned onto a separate line",
+      "orphan_value": "3.000",
+      "psms_a": 6,
+      "psms_b": 2
+    },
+    {
+      "accession": "BAD68706.l",
+      "defect": "19A PSM cell blank in the PDF",
+      "implied_19a_psms_unprinted": 9,
+      "printed_ratio": 3.0,
+      "psms_b": 3
+    }
+  ],
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Published supplementary protein-level aggregated PSM counts, not individual seed-level replicates, not raw spectra, not independently accessioned datasets",
+    "Printed table covers only 19A/WT ratios >= 2.000 and ends at the document end; no filter is stated in the caption, so this is a subset of shared proteins, not the complete shared-protein list the 51A supplement provides",
+    "Two printed rows carry layout or blank-cell defects and are excluded from the strict replay; implied values are recorded, not filled in",
+    "PSM abundance cannot be equated to antigen dose, immune efficacy or storage/digestion stability; exploratory audits do not establish a comparator win"
+  ],
+  "log1p_psm_pearson_r_squared": 0.7347622953576063,
+  "printed_ratio_median": 3.0,
+  "printed_ratio_minmax": [
+    2.0,
+    37.667
+  ],
+  "psm_ratio_of_sums": 6.715909090909091,
+  "psm_sum_19a": 1182,
+  "psm_sum_wt": 176,
+  "raw_psm_pearson_r_squared": 0.2900166851613215,
+  "sha256": "b08d51fe98a0c5a99dfc1a54b92d06b9e6c737ee8dc4ed92e4e0709046f37981",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10978600/supplementaryFiles",
+  "strict_rows": 43,
+  "supplement": "PMC10978600_DataSheet_1.pdf",
+  "table_extends_to_document_end": true
+}
