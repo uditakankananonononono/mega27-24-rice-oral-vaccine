@@ -1,0 +1,7 @@
+# Identifier-deduped exploratory seed-metabolome stability
+
+The [MTBLS437 published seed-metabolome assay](https://www.ebi.ac.uk/metabolights/MTBLS437) has 212 named feature rows, but only 104 distinct analyte keys when feature rows are grouped by database identifier (name fallback only if identifier absent), with duplicate values collapsed by per-sample median. All 104 had finite positive measurements in the nine selected samples, four MR-CTB51A and five hydroponic parental Nipponbare. This analysis replays the same post-outcome direction-consistency probe as `feature_stability_map.py`, now at the analyte level. The script, source SHA-256, JSON, and replay test pin the count.
+
+In the original label assignment, **95/104 analytes** keep the raw/log mean-difference direction through all nine leave-one-sample-out views. Under eight deliberately rotated label assignments, counts are **89, 16, 79, 87, 97, 85, 27, 82**. One rotated assignment exceeds the observed 95. These rotations are a warning about the deceptiveness of within-cohort consistency, not a valid permutation test; confounding and the post-outcome choice of analysis remain. Compared with the original 180/212 stable feature rows, the deduped analysis demonstrates that the unit of analysis matters. Neither view is an independent biological result, an antigen-dose result, or a benchmark win.
+
+A future positive test would need an independently sampled, same-task cohort and a fixed comparator before looking at outcomes. This audit claims zero service, accession, derivation, and page gate credit.
