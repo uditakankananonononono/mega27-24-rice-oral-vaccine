@@ -1,0 +1,45 @@
+{
+  "checks": {
+    "authors_high_light_claim_context": ">1000 g/m2 at 1400 umol/m2/s; data not shown",
+    "cultivation_stage": {
+      "dark_hours": 12,
+      "intensity_umol_m2_s": [
+        600,
+        700
+      ],
+      "light_hours": 12
+    },
+    "descriptive_floor_over_historical_mean_percent": 17.7,
+    "high_light_sunlight_yield_data_shown": false,
+    "minimum_reported_19A_yield_g_m2": 588.5,
+    "reported_51A_historical_mean_g_m2": 500,
+    "same_light_range_printed_for_51A_comparator": true,
+    "seedling_stage": {
+      "dark_hours": 8,
+      "intensity_umol_m2_s": [
+        400,
+        500
+      ],
+      "light_hours": 16
+    }
+  },
+  "finding": "The printed same-light comparison concerns the 19A cultivation stage, not the 400-500 seedling stage. The 19A three-round reported floor exceeds the cited 51A historical mean by 17.7% arithmetically; this is not a matched experiment or a statistical win. The >1000 high-light statement is explicitly data not shown.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "51A and 19A numbers come from distinct reported settings, with metal-halide versus LED lighting; do not treat the ratio as a controlled comparator.",
+    "The underlying six-plant values per round and high-light data are not provided in these passages; variability and significance cannot be recalculated.",
+    "Source-context QC only, not an independent trial, new discovery, production protocol, or clinical finding."
+  ],
+  "sources": {
+    "main_sha256": "e547fa13d806001eb8f833b3e4bbcd264a8ae7fc6fb18547eb8d09348f5ba6ee",
+    "main_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10978600/",
+    "supplement_pdf_page": 17,
+    "supplement_sha256": "b08d51fe98a0c5a99dfc1a54b92d06b9e6c737ee8dc4ed92e4e0709046f37981",
+    "supplement_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10978600/supplementaryFiles"
+  }
+}
