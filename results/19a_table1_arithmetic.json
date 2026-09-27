@@ -1,0 +1,69 @@
+{
+  "finding": "Four individual percentages round correctly, and all three total counts sum correctly; the printed total ratio 32% does not equal 59/192 = 30.729%, which rounds to 31% under integer nearest rounding.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Printed source arithmetic only, not independent experiments or biological validation",
+    "No inference about line performance, vaccine dose, immune outcome, or a causal explanation for the printed discrepancy"
+  ],
+  "rows": [
+    {
+      "calculated_ratio_percent": 28.30188679245283,
+      "gene_positive_calli": 15,
+      "printed_line": "#19A",
+      "printed_ratio_percent": 28,
+      "protein_positive_t1_seeds": 15,
+      "rounds_to_printed_integer_percent": true,
+      "row": "1",
+      "screened_calli": 53
+    },
+    {
+      "calculated_ratio_percent": 47.22222222222222,
+      "gene_positive_calli": 17,
+      "printed_line": "none",
+      "printed_ratio_percent": 47,
+      "protein_positive_t1_seeds": 14,
+      "rounds_to_printed_integer_percent": true,
+      "row": "2",
+      "screened_calli": 36
+    },
+    {
+      "calculated_ratio_percent": 28.30188679245283,
+      "gene_positive_calli": 15,
+      "printed_line": "#9B",
+      "printed_ratio_percent": 28,
+      "protein_positive_t1_seeds": 10,
+      "rounds_to_printed_integer_percent": true,
+      "row": "3",
+      "screened_calli": 53
+    },
+    {
+      "calculated_ratio_percent": 24.0,
+      "gene_positive_calli": 12,
+      "printed_line": "#43B, #50A",
+      "printed_ratio_percent": 24,
+      "protein_positive_t1_seeds": 9,
+      "rounds_to_printed_integer_percent": true,
+      "row": "4",
+      "screened_calli": 50
+    },
+    {
+      "calculated_ratio_percent": 30.729166666666668,
+      "gene_positive_calli": 59,
+      "printed_line": "4",
+      "printed_ratio_percent": 32,
+      "protein_positive_t1_seeds": 48,
+      "rounds_to_printed_integer_percent": false,
+      "row": "Total",
+      "screened_calli": 192
+    }
+  ],
+  "sha256": "b08d51fe98a0c5a99dfc1a54b92d06b9e6c737ee8dc4ed92e4e0709046f37981",
+  "source_file": "PMC10978600_DataSheet_1.pdf",
+  "source_pdf_page": 15,
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10978600/supplementaryFiles"
+}
