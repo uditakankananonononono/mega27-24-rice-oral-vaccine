@@ -5,4 +5,4 @@ def test_phase1_dose_scope():
  x=json.loads(subprocess.check_output(['python3',str(ROOT/'scripts/audit_phase1_dose_scope.py')],text=True))
  assert x==json.loads((ROOT/'results/phase1_dose_scope.json').read_text())
  assert x['reported_design']['total_allocated']==60
- assert not x['classification']['seed_lot_antigen_mass_per_trial_dose_in_abstract']
+ assert not x['classification']['ctb_content_per_trial_dose_in_abstract']

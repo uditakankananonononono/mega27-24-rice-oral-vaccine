@@ -5,13 +5,13 @@
     "vaccine_with_followup_if_losses_only": 27
   },
   "classification": {
+    "ctb_content_per_trial_dose_in_abstract": false,
     "dose_mass_basis": "grams of administered rice product",
     "individual_lot_antigen_concentrations_in_abstract": false,
-    "matched_digestion_fraction_in_abstract": false,
-    "seed_lot_antigen_mass_per_trial_dose_in_abstract": false
+    "matched_digestion_fraction_in_abstract": false
   },
   "efetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35544149&rettype=abstract&retmode=xml",
-  "finding": "The trial abstract documents randomized rice-product gram doses and participant allocation, not individually measured seed-lot antigen mass or post-digestion delivery. Therefore multiplying earlier 2021/2024 mean CTB concentration by trial grams would produce an illustrative cross-study estimate, not a verified trial dose.",
+  "finding": "The trial abstract documents randomized rice-product gram doses and participant allocation, but not CTB content per dose or seed-lot variation. The full text prints intended CTB mass for each cohort; see the companion full-text audit. Earlier 2021/2024 seed-bank means must not be substituted for this trial\u2019s separately reported contents.",
   "gate_credit": {
     "audited_derivations": 0,
     "external_services": 0,
