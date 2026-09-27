@@ -1,0 +1,76 @@
+{
+  "all_six_ratios_round_to_printed": true,
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Six published aggregated Table 2 rows only; not independently fetched protein accession records or individual seed-level replicates",
+    "PSM ratios do not measure allergenicity, safety, antigen dose or immune response",
+    "Allergen labels here reflect the article; no independent protein annotation audit"
+  ],
+  "ratio_of_summed_psm": 0.914545,
+  "ratios_above_one": 2,
+  "ratios_below_one": 4,
+  "rows": [
+    {
+      "accession_printed": "Q75GX9 .1",
+      "description": "Putative globulin (63\u2009kDa)",
+      "msb_psm_printed": 2548,
+      "nsb_psm_printed": 2358,
+      "ratio_exact_from_counts": 0.925432,
+      "ratio_printed": 0.925,
+      "ratio_rounds_to_printed": true
+    },
+    {
+      "accession_printed": "AAD10375.1",
+      "description": "Globulin-like protein (52\u2009kDa)",
+      "msb_psm_printed": 1171,
+      "nsb_psm_printed": 860,
+      "ratio_exact_from_counts": 0.734415,
+      "ratio_printed": 0.734,
+      "ratio_rounds_to_printed": true
+    },
+    {
+      "accession_printed": "AAA72362.1",
+      "description": "19\u2009kDa globulin",
+      "msb_psm_printed": 487,
+      "nsb_psm_printed": 614,
+      "ratio_exact_from_counts": 1.26078,
+      "ratio_printed": 1.261,
+      "ratio_rounds_to_printed": true
+    },
+    {
+      "accession_printed": "ACA50505.1",
+      "description": "RAG2",
+      "msb_psm_printed": 121,
+      "nsb_psm_printed": 135,
+      "ratio_exact_from_counts": 1.115702,
+      "ratio_printed": 1.116,
+      "ratio_rounds_to_printed": true
+    },
+    {
+      "accession_printed": "Q01881.2",
+      "description": "RA5",
+      "msb_psm_printed": 62,
+      "nsb_psm_printed": 58,
+      "ratio_exact_from_counts": 0.935484,
+      "ratio_printed": 0.935,
+      "ratio_rounds_to_printed": true
+    },
+    {
+      "accession_printed": "XP_015645309.1",
+      "description": "Os07g0216700",
+      "msb_psm_printed": 128,
+      "nsb_psm_printed": 106,
+      "ratio_exact_from_counts": 0.828125,
+      "ratio_printed": 0.828,
+      "ratio_rounds_to_printed": true
+    }
+  ],
+  "source_sha256": "a972a7b1454fd949e32fdb4a396da19769666c5f79c09f147834a407c422ddfe",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7814724/",
+  "table": "Table 2"
+}
