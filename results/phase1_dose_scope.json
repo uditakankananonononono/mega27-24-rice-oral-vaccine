@@ -1,0 +1,45 @@
+{
+  "allocation_replay": {
+    "placebo_allocated": 30,
+    "vaccine_allocated": 30,
+    "vaccine_with_followup_if_losses_only": 27
+  },
+  "classification": {
+    "dose_mass_basis": "grams of administered rice product",
+    "individual_lot_antigen_concentrations_in_abstract": false,
+    "matched_digestion_fraction_in_abstract": false,
+    "seed_lot_antigen_mass_per_trial_dose_in_abstract": false
+  },
+  "efetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35544149&rettype=abstract&retmode=xml",
+  "finding": "The trial abstract documents randomized rice-product gram doses and participant allocation, not individually measured seed-lot antigen mass or post-digestion delivery. Therefore multiplying earlier 2021/2024 mean CTB concentration by trial grams would produce an illustrative cross-study estimate, not a verified trial dose.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "PubMed abstract only; full trial methods, lot certificates and supplements not audited",
+    "Vaccine arm follow-up count is simple subtraction, not an independently audited efficacy-analysis population",
+    "Cannot infer clinical protection, cross-study lot equivalence, calibrated delivered antigen or a benchmark win"
+  ],
+  "reported_design": {
+    "administered_doses_planned_per_person": 4,
+    "allocated_placebo_per_cohort": 10,
+    "allocated_vaccine_per_cohort": 10,
+    "dose_cohorts_g_rice_powder": [
+      1,
+      3,
+      6
+    ],
+    "phase": 1,
+    "total_allocated": 60,
+    "trial_center_count": 1,
+    "vaccine_follow_up_losses": {
+      "3g": 2,
+      "6g": 1
+    }
+  },
+  "source_sha256": "83da590f8b4fed0f791f564ba411a881b36fce0c3dc2113e8706d33ad25f4f24",
+  "source_url": "https://pubmed.ncbi.nlm.nih.gov/35544149/"
+}
