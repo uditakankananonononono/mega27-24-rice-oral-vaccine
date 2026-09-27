@@ -1,0 +1,185 @@
+{
+  "checks": {
+    "table2_primer_count": 19,
+    "table2_primer_length_range": [
+      18,
+      22
+    ],
+    "table2_primers": [
+      {
+        "counted_chars": 20,
+        "name": "CTB-F",
+        "string_sha256": "350b23dd3a17e9b3"
+      },
+      {
+        "counted_chars": 22,
+        "name": "CTB-R",
+        "string_sha256": "53a6428839bcbb35"
+      },
+      {
+        "counted_chars": 19,
+        "name": "HPT-F",
+        "string_sha256": "1a7e9fb5326d22a8"
+      },
+      {
+        "counted_chars": 19,
+        "name": "HPT-R",
+        "string_sha256": "e434d9bb6fefb9ef"
+      },
+      {
+        "counted_chars": 20,
+        "name": "19A ch1-F",
+        "string_sha256": "18a0df155c2e3e30"
+      },
+      {
+        "counted_chars": 20,
+        "name": "19A ch1-R3",
+        "string_sha256": "55f3c6044e69f8bb"
+      },
+      {
+        "counted_chars": 20,
+        "name": "RAPint3-R",
+        "string_sha256": "a17b28bb725949ab"
+      },
+      {
+        "counted_chars": 20,
+        "name": "RAPint4-F",
+        "string_sha256": "76c6d1bf43533359"
+      },
+      {
+        "counted_chars": 20,
+        "name": "19A ch1-R1",
+        "string_sha256": "ed9e8f934ef540d0"
+      },
+      {
+        "counted_chars": 21,
+        "name": "131out2",
+        "string_sha256": "c61f76012a73f4af"
+      },
+      {
+        "counted_chars": 20,
+        "name": "10TLend5",
+        "string_sha256": "7eabe8aa671387cd"
+      },
+      {
+        "counted_chars": 18,
+        "name": "Pro13k-F",
+        "string_sha256": "44b66a3891561f1f"
+      },
+      {
+        "counted_chars": 20,
+        "name": "Pro13k-R",
+        "string_sha256": "8167311ad35f0bbd"
+      },
+      {
+        "counted_chars": 22,
+        "name": "Glu A-F",
+        "string_sha256": "580deaab7e767a0f"
+      },
+      {
+        "counted_chars": 22,
+        "name": "Glu A-R",
+        "string_sha256": "2f79ac6f60db0487"
+      },
+      {
+        "counted_chars": 22,
+        "name": "Glu B-F",
+        "string_sha256": "6f3d44636b3f24da"
+      },
+      {
+        "counted_chars": 22,
+        "name": "Glu B-R",
+        "string_sha256": "62334e5e3f20a772"
+      },
+      {
+        "counted_chars": 20,
+        "name": "17SrRNA-F",
+        "string_sha256": "fcfb8567899041d6"
+      },
+      {
+        "counted_chars": 20,
+        "name": "17SrRNA-R",
+        "string_sha256": "316da7a3076bf9ff"
+      }
+    ],
+    "table4_all_lengths_match_printed": true,
+    "table4_designed_lengths_row": [
+      90,
+      90,
+      89,
+      80,
+      80,
+      80,
+      67
+    ],
+    "table4_designed_row_matches_labels": true,
+    "table4_mismatches": [],
+    "table4_rows": [
+      {
+        "counted_chars": 90,
+        "label": "LB-1",
+        "length_matches_printed": true,
+        "printed_bp": 90,
+        "string_sha256": "14fab587ef2357f4"
+      },
+      {
+        "counted_chars": 90,
+        "label": "LB-2",
+        "length_matches_printed": true,
+        "printed_bp": 90,
+        "string_sha256": "419b296c696f25cb"
+      },
+      {
+        "counted_chars": 89,
+        "label": "LB-3",
+        "length_matches_printed": true,
+        "printed_bp": 89,
+        "string_sha256": "f41b15d6eabe4e08"
+      },
+      {
+        "counted_chars": 80,
+        "label": "RB-1",
+        "length_matches_printed": true,
+        "printed_bp": 80,
+        "string_sha256": "8213a98fe4b6ab63"
+      },
+      {
+        "counted_chars": 80,
+        "label": "RB-2",
+        "length_matches_printed": true,
+        "printed_bp": 80,
+        "string_sha256": "647447979fb78624"
+      },
+      {
+        "counted_chars": 80,
+        "label": "RB-3",
+        "length_matches_printed": true,
+        "printed_bp": 80,
+        "string_sha256": "e286181c13f13920"
+      },
+      {
+        "counted_chars": 67,
+        "label": "RB-4",
+        "length_matches_printed": true,
+        "printed_bp": 67,
+        "string_sha256": "a2473671d59d53d1"
+      }
+    ]
+  },
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Text-layer character counts of printed strings only; strings themselves are not reproduced in the JSON, only 16-char hash prefixes",
+    "A matching character count does not verify the underlying sequence against any genomic record; no accession payload was fetched or aligned",
+    "Supplementary Table 2 prints no lengths, so its counts are descriptive, not a pass/fail check",
+    "PDF text-layer extraction: a malformed glyph in the layer would surface as a count mismatch and is indistinguishable from a print defect without visual inspection"
+  ],
+  "sha256": "b08d51fe98a0c5a99dfc1a54b92d06b9e6c737ee8dc4ed92e4e0709046f37981",
+  "source_file": "PMC10978600_DataSheet_1.pdf",
+  "source_pdf_pages": "15-18",
+  "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC10978600/supplementaryFiles"
+}
