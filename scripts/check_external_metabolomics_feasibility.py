@@ -4,8 +4,8 @@ import csv,glob,hashlib,json
 R=Path(__file__).resolve().parents[1]
 files={
  'MTBLS437':[R/'data/sources/MTBLS437_maf.tsv'],
- 'MTBLS288':list((R/'data/sources').glob('m_MTBLS288*maf.tsv')),
- 'MTBLS801':list((R/'data/sources').glob('m_MTBLS801*maf.tsv')),
+ 'MTBLS288':sorted((R/'data/sources').glob('m_MTBLS288*maf.tsv'),reverse=True),
+ 'MTBLS801':sorted((R/'data/sources').glob('m_MTBLS801*maf.tsv'),reverse=True),
 }
 assert all(files.values())
 summary={}; names={}; identifiers={}
