@@ -1,0 +1,142 @@
+
+PMID- 35484039
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20220519
+LR  - 20220720
+IS  - 1873-2518 (Electronic)
+IS  - 0264-410X (Linking)
+VI  - 40
+IP  - 24
+DP  - 2022 May 26
+TI  - Oral MucoRice-CTB vaccine is safe and immunogenic in healthy US adults.
+PG  - 3372-3379
+LID - S0264-410X(22)00491-1 [pii]
+LID - 10.1016/j.vaccine.2022.04.051 [doi]
+AB  - MucoRice-CTB is a promising cold-chain-free oral cholera vaccine candidate. Here, 
+      we report a double-blind, randomized, placebo-controlled, phase I study conducted 
+      in the USA in which vaccination with the 6-g dose of MucoRice-CTB induced 
+      cross-reactive antigen-specific antibodies against the B subunit of cholera toxin 
+      (CTB) and enterotoxigenic Escherichia coli heat-labile enterotoxin without 
+      inducing serious adverse events. This dosage was acceptably safe and tolerable in 
+      healthy men and women. In addition, it induced a CTB-specific IgA response in the 
+      saliva of two of the nine treated subjects; in one subject, the immunological 
+      kinetics of the salivary IgA were similar to those of the serum CTB-specific IgA. 
+      Antibodies from three of the five responders to the vaccine prevented CTB from 
+      binding its GM1 ganglioside receptor. These results are consistent with those of 
+      the phase I study in Japan, suggesting that oral MucoRice-CTB induces 
+      neutralizing antibodies against diarrheal toxins regardless of ethnicity.
+CI  - Copyright (c) 2022 The Authors. Published by Elsevier Ltd.. All rights reserved.
+FAU - Yuki, Yoshikazu
+AU  - Yuki Y
+AD  - Department of Mucosal Immunology, IMSUT Distinguished Professor Unit, The 
+      Institute of Medical Science, The University of Tokyo, Tokyo, 108-8639, Japan.
+FAU - Nojima, Masanori
+AU  - Nojima M
+AD  - Center for Translational Research, IMSUT Hospital, The Institute of Medical 
+      Science, The University of Tokyo, Tokyo, 108-8639, Japan.
+FAU - Kashima, Koji
+AU  - Kashima K
+AD  - Asahi Kogyosha Co., Ltd., Tokyo, 105-0013, Japan.
+FAU - Sugiura, Kotomi
+AU  - Sugiura K
+AD  - Department of Mucosal Immunology, IMSUT Distinguished Professor Unit, The 
+      Institute of Medical Science, The University of Tokyo, Tokyo, 108-8639, Japan.
+FAU - Maruyama, Shinichi
+AU  - Maruyama S
+AD  - Asahi Kogyosha Co., Ltd., Tokyo, 105-0013, Japan.
+FAU - Kurokawa, Shiho
+AU  - Kurokawa S
+AD  - Department of Mucosal Immunology, IMSUT Distinguished Professor Unit, The 
+      Institute of Medical Science, The University of Tokyo, Tokyo, 108-8639, Japan.
+FAU - Yamanoue, Tomoyuki
+AU  - Yamanoue T
+AD  - Department of Mucosal Immunology, IMSUT Distinguished Professor Unit, The 
+      Institute of Medical Science, The University of Tokyo, Tokyo, 108-8639, Japan.
+FAU - Nakahashi-Ouchida, Rika
+AU  - Nakahashi-Ouchida R
+AD  - Department of Mucosal Immunology, IMSUT Distinguished Professor Unit, The 
+      Institute of Medical Science, The University of Tokyo, Tokyo, 108-8639, Japan; 
+      Division of Mucosal Vaccines, International Research and Development Center for 
+      Mucosal Vaccine, The Institute of Medical Science, The University of Tokyo, 
+      Tokyo, 108-8639, Japan.
+FAU - Nakajima, Hiroyuki
+AU  - Nakajima H
+AD  - Asahi Kogyosha Co., Ltd., Tokyo, 105-0013, Japan.
+FAU - Hiraizumi, Takashi
+AU  - Hiraizumi T
+AD  - Asahi Kogyosha Co., Ltd., Tokyo, 105-0013, Japan.
+FAU - Kohno, Hitoshi
+AU  - Kohno H
+AD  - Asahi Kogyosha Co., Ltd., Tokyo, 105-0013, Japan.
+FAU - Goto, Eiji
+AU  - Goto E
+AD  - Graduate School of Horticulture, Chiba University, Chiba, Japan.
+FAU - Fujihashi, Kohtaro
+AU  - Fujihashi K
+AD  - Division of Clinical Vaccinology, International Research and Development Center 
+      for Mucosal Vaccines, The Institute of Medical Science, The University of Tokyo, 
+      Tokyo 108-8639, Japan; Department of Pediatric Dentistry, The University of 
+      Alabama at Birmingham, Birmingham, AL 35294-0007, USA.
+FAU - Kiyono, Hiroshi
+AU  - Kiyono H
+AD  - Department of Mucosal Immunology, IMSUT Distinguished Professor Unit, The 
+      Institute of Medical Science, The University of Tokyo, Tokyo, 108-8639, Japan; 
+      Division of Mucosal Vaccines, International Research and Development Center for 
+      Mucosal Vaccine, The Institute of Medical Science, The University of Tokyo, 
+      Tokyo, 108-8639, Japan; Mucosal Immunology and Allergy Therapeutics, Institute 
+      for Global Prominent Research, Future Medicine Education and Research 
+      Organization, Chiba University, Chiba, 263-8522, Japan; CU-UCSD Center for 
+      Mucosal Immunology, Allergy, and Vaccine (cMAV) Division of Gastroenterology, 
+      Department of Medicine, University of California, San Diego, CA, 92093-0956, USA. 
+      Electronic address: kiyono@ims.u-tokyo.ac.jp.
+LA  - eng
+PT  - Clinical Trial, Phase I
+PT  - Journal Article
+PT  - Randomized Controlled Trial
+PT  - Research Support, Non-U.S. Gov't
+DEP - 20220426
+PL  - Netherlands
+TA  - Vaccine
+JT  - Vaccine
+JID - 8406899
+RN  - 0 (Cholera Vaccines)
+RN  - 0 (Immunoglobulin A)
+RN  - 9012-63-9 (Cholera Toxin)
+SB  - IM
+MH  - Administration, Oral
+MH  - Cholera Toxin
+MH  - *Cholera Vaccines
+MH  - *Enterotoxigenic Escherichia coli
+MH  - Female
+MH  - Humans
+MH  - Immunoglobulin A
+MH  - Male
+MH  - *Oryza/metabolism
+OTO - NOTNLM
+OT  - Human study
+OT  - MucoRice-CTB
+OT  - Oral cholera vaccine
+OT  - Plant-made pharmaceuticals
+OT  - Transgenic rice
+COIS- Declaration of Competing Interest The authors declare that they have no known 
+      competing financial interests or personal relationships that could have appeared 
+      to influence the work reported in this paper. Competing interests KK, SM, HN, HT, 
+      and HKo are employed by Asahi Kogyosha. The remaining authors declare no 
+      competing interests. All authors have submitted the ICMJE Form for Disclosure of 
+      Potential Conflicts of Interest. Conflicts that the editors consider relevant to 
+      the content of the manuscript have been disclosed.
+EDAT- 2022/04/29 06:00
+MHDA- 2022/05/20 06:00
+CRDT- 2022/04/28 22:16
+PHST- 2021/11/09 00:00 [received]
+PHST- 2022/01/25 00:00 [revised]
+PHST- 2022/04/14 00:00 [accepted]
+PHST- 2022/04/29 06:00 [pubmed]
+PHST- 2022/05/20 06:00 [medline]
+PHST- 2022/04/28 22:16 [entrez]
+AID - S0264-410X(22)00491-1 [pii]
+AID - 10.1016/j.vaccine.2022.04.051 [doi]
+PST - ppublish
+SO  - Vaccine. 2022 May 26;40(24):3372-3379. doi: 10.1016/j.vaccine.2022.04.051. Epub 
+      2022 Apr 26.

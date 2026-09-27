@@ -1,0 +1,33 @@
+{
+  "finding": "A separate published US randomized trial tested the 6-g rice-product dose in men and women; its abstract reports salivary CTB-specific IgA in 2/9 treated participants and GM1 inhibition in 3/5 responders. This adds external clinical context, not a head-to-head or data-level replication.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "japan_fulltext_sha256": "0d9545e301332f2cd4a89209edfa9279be47c2d5236ecdc0ba1fc60088a5cb1e",
+  "japan_fulltext_url": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%2820%2930196-8/fulltext",
+  "japan_trial": {
+    "design": "double-blind randomized placebo-controlled phase I in Japan",
+    "dose_g_in_6g_cohort": 6,
+    "healthy_men_only": true,
+    "six_g_treated_assigned": 10
+  },
+  "limits": [
+    "Two separate trials and selected abstract endpoints cannot be pooled as matched participant-level data or used for a fair strongest-comparator win.",
+    "The US abstract gives no CTB milligram content, 6-g cohort denominator matching rule, individual endpoint values or participant-level safety record.",
+    "The 2/9 salivary result is not directly comparable with the Japanese trial faecal IgA measurement or its technical sampling limitations.",
+    "The US article full text was not fetched and its abstract is not an accession payload; no gate credit."
+  ],
+  "us_abstract_sha256": "5e201775fa4388fda4aa9dd7478bafa53e61bff07f800914bf678e6bf183173a",
+  "us_pubmed_efetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=35484039&rettype=medline&retmode=text",
+  "us_pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/35484039/",
+  "us_trial": {
+    "design": "double-blind randomized placebo-controlled phase I in USA",
+    "dose_g": 6,
+    "gm1_binding_inhibition": "3 of 5 responders (as abstract states)",
+    "includes_men_and_women": true,
+    "saliva_iga_response": "2 of 9 treated subjects (as abstract states)"
+  }
+}
