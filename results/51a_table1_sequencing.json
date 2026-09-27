@@ -1,0 +1,122 @@
+{
+  "article_sha256": "a972a7b1454fd949e32fdb4a396da19769666c5f79c09f147834a407c422ddfe",
+  "checks": {
+    "all_six_mapping_rates_round_correctly": true,
+    "depth_reproducible_from_printed_inputs": false,
+    "ena_run_count": 6,
+    "ena_run_listing_bijective_with_printed_experiments": true,
+    "printed_over_stated_depth_ratio_range": [
+      0.9,
+      1.213
+    ],
+    "rows": [
+      {
+        "calculated_mapping_rate_pct": 98.23,
+        "depth_if_stated_definition": 108.4,
+        "depth_matches_stated_definition": false,
+        "depth_printed_over_stated_definition": 0.9,
+        "mapped_reads": 382752568,
+        "mapping_rate_rounds_to_printed": true,
+        "printed_coverage_rate_pct": 94.6,
+        "printed_depth": 97.54,
+        "printed_experiment_accession": "DRX246636",
+        "printed_mapping_rate_pct": 98.23,
+        "run_code": "PG0217_02_a",
+        "sample_code": "MSB_1",
+        "total_reads": 389649421
+      },
+      {
+        "calculated_mapping_rate_pct": 97.66,
+        "depth_if_stated_definition": 50.97,
+        "depth_matches_stated_definition": false,
+        "depth_printed_over_stated_definition": 1.18,
+        "mapped_reads": 177123344,
+        "mapping_rate_rounds_to_printed": true,
+        "printed_coverage_rate_pct": 93.1,
+        "printed_depth": 60.12,
+        "printed_experiment_accession": "DRX246637",
+        "printed_mapping_rate_pct": 97.66,
+        "run_code": "PG2764_02_a",
+        "sample_code": "MSB_2",
+        "total_reads": 181363917
+      },
+      {
+        "calculated_mapping_rate_pct": 98.09,
+        "depth_if_stated_definition": 56.75,
+        "depth_matches_stated_definition": false,
+        "depth_printed_over_stated_definition": 1.213,
+        "mapped_reads": 206082524,
+        "mapping_rate_rounds_to_printed": true,
+        "printed_coverage_rate_pct": 97.3,
+        "printed_depth": 68.83,
+        "printed_experiment_accession": "DRX246638",
+        "printed_mapping_rate_pct": 98.09,
+        "run_code": "PG2764_07_b",
+        "sample_code": "MSB_3",
+        "total_reads": 210105305
+      },
+      {
+        "calculated_mapping_rate_pct": 99.24,
+        "depth_if_stated_definition": 131.63,
+        "depth_matches_stated_definition": false,
+        "depth_printed_over_stated_definition": 0.902,
+        "mapped_reads": 468225863,
+        "mapping_rate_rounds_to_printed": true,
+        "printed_coverage_rate_pct": 95.3,
+        "printed_depth": 118.72,
+        "printed_experiment_accession": "DRX246639",
+        "printed_mapping_rate_pct": 99.24,
+        "run_code": "PG2302_01_a",
+        "sample_code": "NSB_1",
+        "total_reads": 471799917
+      },
+      {
+        "calculated_mapping_rate_pct": 96.72,
+        "depth_if_stated_definition": 51.18,
+        "depth_matches_stated_definition": false,
+        "depth_printed_over_stated_definition": 1.101,
+        "mapped_reads": 164675845,
+        "mapping_rate_rounds_to_printed": true,
+        "printed_coverage_rate_pct": 86.2,
+        "printed_depth": 56.35,
+        "printed_experiment_accession": "DRX246640",
+        "printed_mapping_rate_pct": 96.72,
+        "run_code": "PG2764_03_a",
+        "sample_code": "NSB_2",
+        "total_reads": 170255253
+      },
+      {
+        "calculated_mapping_rate_pct": 98.61,
+        "depth_if_stated_definition": 50.98,
+        "depth_matches_stated_definition": false,
+        "depth_printed_over_stated_definition": 1.163,
+        "mapped_reads": 173912788,
+        "mapping_rate_rounds_to_printed": true,
+        "printed_coverage_rate_pct": 91.4,
+        "printed_depth": 59.29,
+        "printed_experiment_accession": "DRX246641",
+        "printed_mapping_rate_pct": 98.61,
+        "run_code": "PG2764_08_b",
+        "sample_code": "NSB_3",
+        "total_reads": 176372027
+      }
+    ]
+  },
+  "ena_report_sha256": "64f654f977fb7af7217e4d3445bb4170e5bc6bde6b15559dfc1a54d92741a681",
+  "ena_report_url": "https://www.ebi.ac.uk/ena/portal/api/filereport?accession=DRA011151&result=read_run&fields=run_accession%2Cexperiment_accession%2Csample_accession&format=tsv",
+  "finding": "All six printed mapping rates replay exactly from the printed read counts, and the six printed DDBJ experiment accessions map one-to-one onto the six ENA run records archived for the study. The printed depth values are not reproducible from the printed inputs under the definition stated in the methods text (printed values range from 0.90x to 1.21x of the stated-definition value with no single systematic factor); the intermediate filtered-read counts the authors used are not printed.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Mapping-rate replay and archive-metadata correspondence only; no read payload downloaded or aligned",
+    "The depth mismatch is an unresolved reproducibility gap, not proof of an error: the methods text states the formula but the filtered per-read inputs are not printed",
+    "Sequencing-summary QC says nothing about seed composition, product quality, or any biological outcome"
+  ],
+  "reference_bp_printed_in_methods": 373245519,
+  "source_file": "pmc7814724.xml",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7814724/"
+}
