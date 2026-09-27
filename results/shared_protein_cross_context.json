@@ -1,0 +1,50 @@
+{
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "interpretation": "Same printed accession labels can be compared for metadata alignment, but NSB/MSB in a 51A seed-bank generation comparison is a different estimand from 19A/WT in the later line comparison. Neither sign agreement nor disagreement is a biological replication test.",
+  "limits": [
+    "Ratios are author-reported aggregates from different source contexts and different denominators, not a paired experiment",
+    "Protein accession labels are copied from articles; individual protein records and raw PSM payloads were not fetched",
+    "No antigen-dose, safety, allergenicity, efficacy, causal, benchmark or discovery inference"
+  ],
+  "opposite_ratio_side_count": 2,
+  "overlap_count": 4,
+  "rows": [
+    {
+      "line19a_over_wt_2024": 0.991,
+      "line_ratio_side_of_one": "below",
+      "printed_protein_accession": "AAA72362.1",
+      "seed_bank_nsb_over_msb_2021": 1.261,
+      "seed_bank_ratio_side_of_one": "above"
+    },
+    {
+      "line19a_over_wt_2024": 0.114,
+      "line_ratio_side_of_one": "below",
+      "printed_protein_accession": "ACA50505.1",
+      "seed_bank_nsb_over_msb_2021": 1.116,
+      "seed_bank_ratio_side_of_one": "above"
+    },
+    {
+      "line19a_over_wt_2024": 0.719,
+      "line_ratio_side_of_one": "below",
+      "printed_protein_accession": "Q01881.2",
+      "seed_bank_nsb_over_msb_2021": 0.935,
+      "seed_bank_ratio_side_of_one": "below"
+    },
+    {
+      "line19a_over_wt_2024": 0.825,
+      "line_ratio_side_of_one": "below",
+      "printed_protein_accession": "Q75GX9.1",
+      "seed_bank_nsb_over_msb_2021": 0.925,
+      "seed_bank_ratio_side_of_one": "below"
+    }
+  ],
+  "source_2021": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7814724/",
+  "source_2021_sha256": "a972a7b1454fd949e32fdb4a396da19769666c5f79c09f147834a407c422ddfe",
+  "source_2024": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10978600/",
+  "source_2024_sha256": "e547fa13d806001eb8f833b3e4bbcd264a8ae7fc6fb18547eb8d09348f5ba6ee"
+}
