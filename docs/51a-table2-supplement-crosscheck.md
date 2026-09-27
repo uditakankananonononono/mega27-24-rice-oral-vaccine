@@ -1,0 +1,5 @@
+# 51A Table 2 cross-check against its shared-protein supplement, 2026-09-28
+
+The [2021 article](https://pmc.ncbi.nlm.nih.gov/articles/PMC7814724/) publishes six Table 2 rows of selected protein-level PSM counts and ratios. Its [Additional file 3 PDF](https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7814724/supplementaryFiles) lists 477 shared proteins. A narrow PDF-text cross-check locates the six Table 2 accession labels in the supplement at rows 1, 3, 5, 21, 59 and 16, respectively. For each, the printed MSB count, NSB count and ratio match Table 2 exactly. Line wrapping separates four accession labels from their numeric rows, so the script searches only within three lines of each label and matches the printed PSM pair. It does not claim to parse or audit all 477 accession labels.
+
+This is a consistency check between two parts of **one publication**, not external validation or individual accession-record retrieval. It does not measure antigen dose, allergenicity, efficacy or seed-level variance. Zero gate credit.

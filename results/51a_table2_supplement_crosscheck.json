@@ -1,0 +1,56 @@
+{
+  "all_six_table2_rows_match_supplement": true,
+  "article_sha256": "a972a7b1454fd949e32fdb4a396da19769666c5f79c09f147834a407c422ddfe",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Source-to-source consistency of two parts of the same publication, not independent validation or individual accession fetches",
+    "This does not assess allergenicity, antigen dose, vaccine efficacy or seed-level variance"
+  ],
+  "paper_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7814724/",
+  "supplement_matched_target_rows": 6,
+  "supplement_sha256": "1517246b931d29fbd8b617318d683028dc40ab687625f21641a80cfbc21cecce",
+  "supplement_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7814724/supplementaryFiles",
+  "table2_rows": [
+    {
+      "accession": "Q75GX9.1",
+      "found_in_shared_supplement": true,
+      "printed_psm_and_ratio_match": true,
+      "supplement_row": 1
+    },
+    {
+      "accession": "AAD10375.1",
+      "found_in_shared_supplement": true,
+      "printed_psm_and_ratio_match": true,
+      "supplement_row": 3
+    },
+    {
+      "accession": "AAA72362.1",
+      "found_in_shared_supplement": true,
+      "printed_psm_and_ratio_match": true,
+      "supplement_row": 5
+    },
+    {
+      "accession": "ACA50505.1",
+      "found_in_shared_supplement": true,
+      "printed_psm_and_ratio_match": true,
+      "supplement_row": 21
+    },
+    {
+      "accession": "Q01881.2",
+      "found_in_shared_supplement": true,
+      "printed_psm_and_ratio_match": true,
+      "supplement_row": 59
+    },
+    {
+      "accession": "XP_015645309.1",
+      "found_in_shared_supplement": true,
+      "printed_psm_and_ratio_match": true,
+      "supplement_row": 16
+    }
+  ]
+}
