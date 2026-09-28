@@ -1,0 +1,5 @@
+# Literal ChatGPT consultation operated in-house, 2026-09-28
+
+Conversation URL: https://chatgpt.com/c/6ab9c7fe-5718-83e8-b0de-685ea28f269b
+
+The prompt and complete page-rendered reply are archived alongside this note. The judge was given an evidence packet, not repo access, and did not run code. It found a narrow positive in the source-audit tool and a lab-testable lot-level content/retention measurement nomination. It judged a new biological discovery, fair strongest-baseline win and untouched same-task validation unsupported; mechanism unevaluable. Overall it did **not** endorse an ISEF-ready biological-discovery claim. This consultation is one external opinion, not independent data validation or scientific gate credit. The useful pivot is a frozen, same-endpoint lot-to-exposure measurement and published-data bridge if actual paired observations become available; it is not permission to silently swap outcomes or tune a failed model. This note does not count the earlier user-provided ChatGPT floor, which the user changed on 2026-09-28 at 7:19 AM to agent-operated consultations.
