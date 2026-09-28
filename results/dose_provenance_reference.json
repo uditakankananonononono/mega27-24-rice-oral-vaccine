@@ -1,0 +1,87 @@
+{
+  "blocked_cross_context": 3,
+  "blocked_unknown_lot": 1,
+  "cases": [
+    {
+      "case_id": "2007_self_ratio",
+      "computed_ctb_ug": 75.0,
+      "dose_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1904174/",
+      "individual_measured_ctb_ug": null,
+      "intestinal_surviving_ctb_ug": null,
+      "reported_nominal_ctb_ug": 75,
+      "status": "permitted"
+    },
+    {
+      "case_id": "2024_mouse_self_ratio",
+      "computed_ctb_ug": null,
+      "dose_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10978600/",
+      "individual_measured_ctb_ug": null,
+      "intestinal_surviving_ctb_ug": null,
+      "reported_nominal_ctb_ug": 740,
+      "status": "blocked_unknown_lot"
+    },
+    {
+      "case_id": "human_with_2021_seedbank",
+      "computed_ctb_ug": null,
+      "dose_source": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%2820%2930196-8/fulltext",
+      "individual_measured_ctb_ug": null,
+      "intestinal_surviving_ctb_ug": null,
+      "reported_nominal_ctb_ug": 3000,
+      "status": "blocked_cross_context"
+    },
+    {
+      "case_id": "human_with_2024_19a",
+      "computed_ctb_ug": null,
+      "dose_source": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%2820%2930196-8/fulltext",
+      "individual_measured_ctb_ug": null,
+      "intestinal_surviving_ctb_ug": null,
+      "reported_nominal_ctb_ug": 18000,
+      "status": "blocked_cross_context"
+    },
+    {
+      "case_id": "2007_mouse_with_2024_19a",
+      "computed_ctb_ug": null,
+      "dose_source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1904174/",
+      "individual_measured_ctb_ug": null,
+      "intestinal_surviving_ctb_ug": null,
+      "reported_nominal_ctb_ug": 75,
+      "status": "blocked_cross_context"
+    },
+    {
+      "case_id": "human_3g_direct_print",
+      "computed_ctb_ug": null,
+      "dose_source": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%2820%2930196-8/fulltext",
+      "individual_measured_ctb_ug": null,
+      "intestinal_surviving_ctb_ug": null,
+      "reported_nominal_ctb_ug": 6000,
+      "status": "source_printed_only"
+    }
+  ],
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Reference cases and source rules are constructed after source inspection; this regression test is not an untouched benchmark or validated new algorithm.",
+    "The three-lot mean may be numerically close to the 2024 mouse printed ratio, but unknown lot identity blocks a claim of measured individual exposure.",
+    "No published in-vitro survival fraction is transported to a human intestinal-delivered dose.",
+    "Source printed nominal CTB content remains visible even when cross-source calculations are blocked."
+  ],
+  "naive_multiply_any_concentration_ug": [
+    75.0,
+    741.0000000000001,
+    6450.0,
+    29640.000000000004,
+    247.00000000000003,
+    null
+  ],
+  "permitted_computations": 1,
+  "source_basis": [
+    "results/2007_rice_protein_protection.json",
+    "results/19a_mouse_dose_scope.json",
+    "results/phase1_fulltext_content.json",
+    "results/reconciled_published_ctb_summaries.json"
+  ]
+}

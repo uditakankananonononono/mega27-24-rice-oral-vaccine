@@ -1,0 +1,8 @@
+[
+  {"id":"2007_self_ratio","dose":"2007_rice_mouse","concentration":"2007_rice","expected":"permitted"},
+  {"id":"2024_mouse_self_ratio","dose":"2024_19a_mouse","concentration":"2024_19a_mean","expected":"blocked_unknown_lot"},
+  {"id":"human_with_2021_seedbank","dose":"2021_trial_1g","concentration":"2021_51a_msb","expected":"blocked_cross_context"},
+  {"id":"human_with_2024_19a","dose":"2021_trial_6g","concentration":"2024_19a_mean","expected":"blocked_cross_context"},
+  {"id":"2007_mouse_with_2024_19a","dose":"2007_rice_mouse","concentration":"2024_19a_mean","expected":"blocked_cross_context"},
+  {"id":"human_3g_direct_print","dose":"2021_trial_3g","concentration":null,"expected":"source_printed_only"}
+]
