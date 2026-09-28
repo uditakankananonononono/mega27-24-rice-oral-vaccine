@@ -1,0 +1,33 @@
+{
+  "finding": "The 20-participant 750-mg/1-mg UMIN000009688 registry is a similarly titled but distinct earlier MucoRice protocol; the published 60-participant 1/3/6-g phase I trial names UMIN000018001, which maps to receipt R000020832. Do not use one registry to fill source gaps in the other.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "limits": [
+    "Both registry pages list results publication as Unpublished; that field is stale or unmaintained for UMIN000018001 given its observed Lancet publication, and cannot override the article.",
+    "Registry interventions state rice product grams but do not state CTB mass for the published trial cohorts; use the published full text for its reported mass pairing.",
+    "No individual trial data, clinical efficacy conclusion, accession payload or project gate credit."
+  ],
+  "published_trial_url": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%2820%2930196-8/fulltext",
+  "registries": [
+    {
+      "archive_sha256": "e14e1cab33f1002e45d105dcef848ee16338b5ae8d656e36cd29cdf0d3fc4c85",
+      "intervention_summary": "single-blind translation record, 750 mg rice containing 1 mg CTB versus wild-type rice",
+      "receipt": "R000011211",
+      "target_n": 20,
+      "umin_id": "UMIN000009688",
+      "url": "https://upload.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000011211"
+    },
+    {
+      "archive_sha256": "37ef9c1009682d5a80f8d2241be843dfb034d29cfcaf281f7c56c51bb6de778b",
+      "intervention_summary": "sequential randomized three cohorts, 1/3/6 g rice product, each cohort 10 treated and 10 placebo",
+      "receipt": "R000020832",
+      "target_n": 60,
+      "umin_id": "UMIN000018001",
+      "url": "https://center6.umin.ac.jp/cgi-open-bin/ctr_e/ctr_view.cgi?recptno=R000020832"
+    }
+  ]
+}
