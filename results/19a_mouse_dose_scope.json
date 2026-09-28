@@ -1,0 +1,29 @@
+{
+  "article_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10978600/",
+  "figure_6_caption_quote": "Antibody responses and protective immunity induced by oral immunization with MucoRice-CTB line 19A. (A\u2013C) Mice were immunized 5 times at 2-week intervals with MucoRice-CTB line 19A or WT rice powder suspended in PBS. CTB-specific serum IgG (A) , serum IgA (B) , and fecal IgA (C) responses were induced in mice immunized with MucoRice-CTB line 19A, but not with WT rice. (D) Mice vaccinated with MucoRice-CTB line 19A had lower intestinal water content than mice that received WT rice. **P < 0.001.",
+  "finding": "The printed mouse dose 150 mg powder/740 ug CTB implies 4.933 ug/mg, approximately the 19A three-lot mean 4.94 ug/mg; the mouse methods say four oral administrations whereas Figure 6 caption says five. The source alone does not settle which count was performed.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "human_trial_url": "https://www.thelancet.com/journals/lanmic/article/PIIS2666-5247%2820%2930196-8/fulltext",
+  "implied_ctb_ug_per_mg_powder": 4.933333333333334,
+  "implied_minus_lot_mean_ug_per_mg": -0.006666666666666821,
+  "limits": [
+    "Arithmetic consistency of the printed mass pair does not independently assay the lot or verify individual mouse exposure.",
+    "Four versus five administrations is a source-text disagreement; do not resolve by guessing or convert it to a biological result.",
+    "The human phase I trial has separate participants, line/product context and dose schedule; do not transfer the mouse count or lot mean to human exposure.",
+    "No participant-level, comparator, biological discovery or project gate credit."
+  ],
+  "lot_mean_19a_ctb_ug_per_mg": 4.94,
+  "mouse_administration_counts": {
+    "figure_6_caption": 5,
+    "methods": 4
+  },
+  "mouse_methods_quote": "Six- to eight-week-old female BALB/c mice (CLEA, Tokyo, Japan) were used for immunization with MucoRice-CTB 19A. Mice were maintained at 22\u00b0C under a standard 12-h light/12-h dark cycle. Food and water were provided ad libitum. All experiments were performed in accordance with the \u201cGuidelines for the Use and Care of Laboratory Animals\u201d and approved by the Animal Committee of the Chiba University Institute of Medical Science. WT or MucoRice-CTB line 19A powder (150 mg containing 740 \u03bcg of CTB) suspended in 750 \u03bcL PBS was used for oral immunization by gastric intubation four times at 2-week intervals. Serum and fecal extracts were collected 1 week after the last immunization.",
+  "reported_ctb_ug": 740,
+  "reported_powder_mg": 150,
+  "source_sha256": "e547fa13d806001eb8f833b3e4bbcd264a8ae7fc6fb18547eb8d09348f5ba6ee"
+}
