@@ -1,0 +1,30 @@
+{
+  "figure_2_caption_quote": "Fig. 2. Open in a new tab Localization and digestive enzyme resistivity of rice-expressed CTB in PBs. ( A ) Data obtained through immunoelectron microscopic analysis with anti-CTB antibody. A positive signal was obtained with 20 nm of gold particles. CTB expressed in rice are stored in PB-I (arrowheads) and PB-II (arrows). ( B ) Pepsin digestion was carried out under the conditions described in Materials and Methods . Approximately 90% of glutelins but not 13k prolamins were digested in vitro , whereas \u224875% of rice-based CTB but not purified rCTB remained intact.",
+  "figure_4_caption_quote": "Fig. 4. Open in a new tab Temperature stability of rice-expressed CTB. ( A ) One thousand rice seeds expressing CTB were preserved in a 500-ml sealed bottle for >1.5 years at 4\u00b0C as well as at RT (25\u00b0C). The content of CTB in preserved rice was not changed compared to that in freshly harvested rice (29 \u00b1 4 \u03bcg per seed). ( B ) Mice were orally immunized with preserved rice-expressed CTB (50 mg of seed powder containing 75 \u03bcg of CTB) as described in Fig. 3 . The preserved rice induced CTB-specific mucosal IgA responses that were comparable to those observed for freshly harvested rice.",
+  "gate_credit": {
+    "audited_derivations": 0,
+    "external_services": 0,
+    "fetched_and_used_accession_datasets": 0,
+    "paper_pages": 0
+  },
+  "implied_reported_ctb_ug_per_mg_powder_in_both_2007_contexts": 1.5,
+  "interpretation": "The authors report an equal nominal CTB oral-dose contrast against purified recombinant CTB with greater rice-group fecal IgA, an in vitro pepsin contrast (~75% rice CTB remaining versus no reported intact purified rCTB), and storage stability at 25 C for 1.5 years. This is a published positive comparator, not a new independent benchmark or discovery.",
+  "limits": [
+    "Figure 2 ~75% is a graphical/author approximate endpoint, not raw replicate-level data or a human delivered-dose estimate.",
+    "Figure 4 reports unchanged CTB content and comparable mouse fecal IgA, not a newly estimated equivalence margin or patient efficacy.",
+    "This 2007 research line cannot be equated to later 19A or 51A production lines or pooled across them.",
+    "No independently fetched accession dataset, genuine new discovery, same-task strongest-comparator win or paper-page gate credit."
+  ],
+  "oral_dose_comparator_quote": "Oral immunization with rice-expressed CTB induced CTB-specific serum IgG and mucosal IgA responses ( Fig. 3 B ). A low dose of rice-expressed CTB (e.g., 50 mg of rice powder containing 75 \u03bcg CTB) sufficiently induced CTB-specific mucosal IgA responses, whereas the same contents of purified rCTB induced no or low levels of antigen-specific IgA responses ( Fig. 3 B ). The differences in required dosage may be because of the physicochemical stability exhibited by rice-based mucosal vaccines and their ability to withstand digestive effects. Although oral immunization with rice-expressed CTB can induce CTB-specific immune responses, it did not induce any rice storage protein-specific immune responses ( Fig. 3 C ), suggesting that rice-expressed CTB did not show adjuvant activity for rice protein. Furthermore, Southern blot analysis confirmed the genetic stability of the CTB-transgenic rice (data not shown); CTB expressed in the rice seed could be preserved for >1.5 years not only at 4\u00b0C, but also at RT, without any degradation ( Fig. 4 A ), and the rice preserved for 1.5 years at RT induced an equal level of CTB-specific fecal IgA responses as freshly harvested rice ( Fig. 4 B ). Our results provided further evidence for a significant potential benefit of rice-based mucosal vaccine for the development of stable vaccine with immunogenicity. Thus, a rice-based mucosal vaccine can be introduced as a first cold-chain-free vaccine.",
+  "oral_nominal_ctb_ug": 75,
+  "oral_seed_powder_mg": 50,
+  "pepsin_initial_ctb_ug": 15,
+  "pepsin_methods_quote": "Seed powder (10 mg containing 15 \u03bcg of CTB) and purified rCTB (15 \u03bcg) were incubated with 0.5 mg/ml pepsin (2,500\u20133,500 units per mg protein; Sigma\u2013Aldrich, St Louis, MO) in 0.1 ml of 0.1 M sodium acetate buffer (pH 1.7) with gentle rocking for 1 h at 37\u00b0C. After neutralization, the degradation of CTB, glutelin, or prolamin was analyzed by Western blot with 5 \u03bcg/ml rabbit anti-CTB, anti-glutelin GluB-1, or anti-13k prolamin antibodies prepared in our laboratory, respectively.",
+  "pepsin_seed_powder_mg": 10,
+  "reported_in_vitro_rice_ctb_remaining_approx_percent": 75,
+  "reported_storage_duration_years": 1.5,
+  "reported_storage_temperature_c": 25,
+  "source_sha256": "dd7b856e3cb6a8a72b6bc2445a2f2f54d8bb0145623cae765128858b3e1798ce",
+  "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1904174/",
+  "storage_paragraph_quote": "Inasmuch as our results provide supportive evidence for the protective advantage of rice-based mucosal vaccine, which includes stability in the harsh condition of the gastrointestinal tract ( Fig. 2 B ), it was logical to examine whether the rice-based vaccine preserved at RT (25\u00b0C) for an extended period maintained its stability and mucosal immunogenicity. To this end, rice-based mucosal vaccine was preserved for 0.5, 1.0, or 1.5 years at either RT (25\u00b0C) or 4\u00b0C. Densitometry analysis revealed that the antigen in rice seed remained stable at RT for >1.5 years ( Fig. 4 A ). Furthermore, the rice preserved at RT for 1.5 years induced the same level of CTB-specific fecal IgA responses as freshly harvested rice ( Fig. 4 B ). These data suggest that the rice-based mucosal vaccine is more stable than the purified antigen of the subunit vaccine, as well as more effective for induction of IgA-committed mucosal immune responses."
+}
